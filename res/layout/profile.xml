@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B2EC5D" >
+    
+
+        <TextView
+            android:id="@+id/hidden_number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="19dp"
+            android:visibility="invisible"
+            android:text="To hide the message from inbox and 
+            display in Fillgap"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_alignTop="@+id/button11"
+            android:layout_marginRight="22dp"
+            android:layout_toLeftOf="@+id/button11" />
+
+        <Button
+            android:id="@+id/button11"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#138808"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/hidden_number1"
+            android:layout_below="@+id/hidden_number1"
+            android:layout_marginRight="65dp"
+            android:text="@string/menu_insert11" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/progressBar1"
+             >
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            
+            android:layout_below="@+id/button11"
+            android:layout_marginRight="47dp"
+            android:text="Please Enter contacts to fill the gap with"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/loadcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/hidden_number1"
+            android:layout_alignRight="@+id/hidden_number_text"
+            android:src="@drawable/cont" />
+
+        <EditText
+            android:id="@+id/hidden_number1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+          android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/hidden_number_text"
+            android:background="@drawable/panel"
+            android:ems="10"
+            android:hint="@string/entercontfillgap" >
+
+            <requestFocus />
+        </EditText>
+
+</RelativeLayout>
+

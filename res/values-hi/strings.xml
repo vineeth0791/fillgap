@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Fillgap</string>
+    <string name="hello_world">हैलो दुनिया!</string>
+    <string name="action_settings">सेटिंग्स</string>
+      <string name="desc">जोड़ें</string>
+       <string name="some_hint">खोज</string>
+         <string name="some_hint1">ग्राहक संख्या</string>
+          <string name="some_hint2">ग्राहक का नाम</string>
+            <string name="some_hint3">जनरल</string>
+            <string name="strAll">सभी</string>
+            <string name="queries">प्रश्नों</string>
+            <string name="configureaccount">अपने gmail/yahoo खाता कॉन्फ़िगर</string>
+            
+             <string name="update">अपडेट</string>
+             <string name="showpwd">दिखाएँ पासवर्ड</string>
+             <string name="enterpwd">पासवर्ड लिखें</string>
+             <string name="entermail">मेल लिखें (गूगल / याहू)</string>
+             <string name="maildialogbox">मेल भेजने शुरू करने के लिए गूगल / याहू ईमेल और पीडब्ल्यूडी दर्ज:</string>
+             <string name="info">सूचना</string>
+             <string name="impfb">आप फेसबुक से दोस्तों के जन्मदिन आयात करने के लिए सुनिश्चित कर रहे हैं. जारी रखने के लिए ठीक क्लिक करें</string>
+             <string name="schedule_messages">अनुसूची संदेश</string>
+             <string name="phno">फोन नंबर:</string>
+              <string name="content">सामग्री:</string>
+              <string name="enternoemail">फोन नंबर / ईमेल दर्ज</string>
+              <string name="hint4">अर्धविराम पर विभाजित नंबर / ईमेल</string>
+              <string name="attachquote">भाव अटैच</string>
+              <string name="loadfb">अमेरिकन प्लान जन्मदिन लोड करने के लिए क्लिक करें</string>
+              <string name="entername">नाम दर्ज</string>
+              <string name="enternum">नंबर दर्ज</string>
+              <string name="entergname">GROUPNAME दर्ज</string>
+              <string name="autoreply">ऑटो जवाब संदेश लिखें</string>
+              <string name="hint5">संपर्क नंबर दर्ज</string>
+              <string name="from">से</string>
+              <string name="to">करने के लिए</string>
+              <string name="birthday">जन्मदिन</string>
+              <string name="anniv">वर्षगांठ</string>
+              <string name="manualtype">यहाँ मैन्युअल टाइप प्रवेश करना चाहता है</string>
+              <string name="textlimit">पाठ सीमा से अधिक है</string>
+              <string name="select">चयन करें</string>
+              <string name="setfreq">सेट आवृत्ति</string>
+              <string name="informto">को सूचित करें:</string>
+              <string name="times">टाइम्स</string>
+              <string name="call">कॉल</string>
+              <string name="deleteall">सभी हटाएँ</string>
+               <string name="emotions">भावनाएँ शेयरिंग</string>
+                <string name="close">बंद</string>
+                <string name="tempelate">Tempelate:</string>
+                <string name="entercontfillgap">खाई को भरने के लिए संपर्क संख्या लिखें</string>
+                 <string name="entermsg">संदेश लिखें</string>
+                  <string name="ask">पूछो?</string>
+                  <string name="alarmtime">अलार्म समय</string>
+                  
+                  <string name="safe">रक्षा</string>
+                <string name="namecallhistory">क्या आप जानना चाहते इतिहास किसके फोन के नाम दर्ज</string> 
+                <string name="numbercallhistory">क्या आप जानना चाहते इतिहास किसके फोन नंबर दर्ज करें</string> 
+                <string name="nummsg">जिसका संदेश आप जानना चाहते नंबर दर्ज</string>
+                <string name="namemsg">जिसका संदेश आप जानना चाहते नाम दर्ज</string>
+                <string name="existrecp">भेजने से पहले fillgap का यकीन, receipient भी एक मौजूदा उपयोगकर्ता बनाओ</string>
+                <string name="send">भेजें</string>
+                 <string name="cancel">रद्द</string>
+                  <string name="selectdate">चुनिंदा तारीख</string>
+                  <string name="set">सेट</string>
+                  <string name="namecalllog">जिसका calllog आप जानना चाहते संपर्क का नाम दर्ज</string>
+                  <string name="numcalllog">जिसका calllog आप जानना चाहते संपर्क नंबर, लिखें</string>
+                  
+                    <!---have to start here-->
+              
+              
+              
+              <string name="setfreqgreater">0 से अधिक करने के लिए सेट आवृत्ति</string>
+              <string name="everydaynotify">हर दिन अधिसूचित</string>
+              <string name="everynotify">प्रत्येक में अधिसूचित</string>
+              <string name="date">दिन</string>
+              <string name="stopnotify">अधिसूचना बंद कर दिया</string>
+              <string name="enternamenum">संपर्क नाम लिखें / संख्या</string>
+              <string name="createnew">नई बनाएँ</string>
+              <string name="selectcontact">संपर्क का चयन करें</string>
+              <string name="ifdidntcall">आप फोन नहीं किया तो</string>
+              <string name="daysnotification">दिनों आप अधिसूचित हो जाएगा</string>
+              <string name="forwarddailycalls">करने के लिए आगे दैनिक शीर्ष 10 कॉल लॉग्स</string>
+              <string name="forwardweeklycalls">इस सप्ताह के आगे शीर्ष 10 कॉल लॉग को</string>
+              <string name="forwardtop">फॉरवर्ड शीर्ष</string>
+              <string name="monthcalllogs">इस महीने की कॉल लॉग्स</string>
+              <string name="anybodycalls">किसी को भी अधिक से अधिक आप कहता है</string> 
+              <string name="timesaday">बार एक दिन में चयनित संपर्कों को सूचित</string>
+              <string name="gotmorecalls">आप से कॉल अधिक मिला</string>
+               <string name="timesadaywthunknowncalls">एक अज्ञात नंबर से बार एक दिन में चयनित संपर्कों को सूचित</string>
+                <string name="gotmore">आप अधिक से अधिक मिला</string>
+                 <string name="unknownmsg">एक अज्ञात नंबर से संदेशों को एक दिन चयनित संपर्कों को सूचित</string>
+                <string name="timesaweek">एक सप्ताह में एक बार चयनित संपर्कों को सूचित</string>
+                <string name="enternumgreater">शून्य से किसी भी संख्या अधिक दर्ज</string>
+                 <string name="entercontactss">संपर्क लिखें</string> 
+                 <string name="splitmulcontacts">एक अर्धविराम पर विभाजन एकाधिक संपर्कों</string>
+                 <string name="inday">एक दिन में करने के लिए सूचित</string>
+                 <string name="timesadayinform">एक दिन के लिए सूचित टाइम्स</string>
+                  <string name="timesadayinformunknownnum">एक अज्ञात नंबर से बार एक दिन के लिए सूचितo</string>
+                   <string name="abusivemsg">अपने संदेश में तो एक अपमानजनक शब्द को सूचित</string>
+                   <string name="msginformto">एक अज्ञात नंबर से संदेशों को एक दिन के लिए सूचित</string>
+                    <string name="weektimesinformto">एक सप्ताह में कई बार एक को सूचित</string> 
+                     <string name="notifiescalllogto">करने के लिए अपने calllogs के बारे में सूचित करता है</string> 
+                     <string name="intimatecnum">आपके कॉल लॉग्स के बारे में उन्हें सूचित करने के लिए संपर्क संख्या लिखें</string>
+                     <string name="forwardeachmsg">करने के लिए प्रत्येक आवक संदेश विवरण अग्रेषित करें</string>
+                     <string name="forwardeachincalls">करने के लिए हर आने वाली कॉल विवरण अग्रेषित करें</string> 
+                     <string name="forwardeachoutcalls">करने के लिए प्रत्येक आउटगोइंग कॉल विवरण अग्रेषित करें</string>
+                     <string name="forwardeachmsdcalls">करने के लिए प्रत्येक मिस कॉल विवरण अग्रेषित करें</string>
+                     <string name="forwardbankmoney">फॉरवर्ड बैंक पैसे बयान वापस लेने</string> 
+                     <string name="informbatterystatus">करने के लिए अपनी बैटरी की स्थिति के बारे में सूचित करें</string>
+                     <string name="wnbattery">जब बैटरी कम है</string>
+                     <string name="mobrestarts">जब भी अपने मोबाइल के पुनरारंभ</string> 
+                     <string name="ifdcall">कॉल से हैं</string> 
+                     <string name="notanswer">तो उत्तर नहीं मिला है एक ऑटो जवाब पाठ के साथ सूचित-</string> 
+
+                     
+                      <string name="conversation">बातचीत</string> 
+                    <string name="areyoursure">आप को हटाने के लिए सुनिश्चित हैं</string> 
+                    <string name="confirmation">पुष्टि</string>
+                    <string name="contactremove">संपर्क हटा दिया जाता है</string>
+                    <string name="adding">जोड़ना......</string>
+                    <string name="yes">हाँ</string>
+                    <string name="no">नहीं</string>
+                    <string name="remalarm">आप के साथ जुड़े अलार्म को दूर करना चाहते हैं</string>
+                     <string name="stpalarm">बंद करो अलार्म</string>
+                     <string name="sttalarm">अलार्म प्रारंभ</string>
+                     <string name="forwardcallandmsg">करने के लिए प्रत्येक कॉल और संदेश के विवरण अग्रेषित करें</string>  
+                     
+                     
+                      <string name="today">आज</string>
+                      <string name="week">साप्ताहिक</string>
+                      <string name="month">मासिक</string>
+                      <string name="addsafeguards">रक्षोपाय जोड़ें</string>
+                      <string name="noschdmsgs">आज के लिए कोई शेड्यूल संदेश</string>
+                      <string name="todaynoalarm">आज के लिए कोई अलार्म</string>
+                      <string name="querytxt">प्रश्न: -सभी आप अपनी रक्षा शामिल क्वेरी कर सकते हैं</string>
+                      <string name="querytxt1">प्रश्न: आपकी रक्षा आप क्वेरी कर सकते हैं सभी रहता -Excludes</string>
+                      <string name="querytxt2">प्रश्न: तुम्हारी रक्षा केवल आप क्वेरी</string>
+                      <string name="querytxt3">प्रश्न: नहींं एक आप क्वेरी कर सकते हैं</string>
+                      <string name="notifyenable">अधिसूचना सक्षम है</string>
+                      <string name="notifydisable">अधिसूचना अक्षम है</string>
+                      <string name="nonotify">पाया कोई अधिसूचना</string>
+                      <string name="emailsmsenable">ईमेल और एसएमएस दोनों सक्षम हैं</string>
+                      <string name="setmail1">एसएमएस और ईमेल सक्षम हैं, अपने खाते को कॉन्फ़िगर करें</string>
+                      <string name="setmail2">ईमेल सक्षम है, एसएमएस अक्षम है</string>
+                      <string name="setmail3">ईमेल सक्षम है, एसएमएस विकलांग है और वह भी अपने खाते कॉन्फ़िगर कृपया</string>
+                      <string name="setmail4">एसएमएस सक्षम है, ईमेल अक्षम है</string>
+                      <string name="setmail5">एसएमएस सक्षम है, ईमेल विकलांग है और वह भी अपने खाते कॉन्फ़िगर कृपया</string>
+                      <string name="setmail6">ईमेल और एसएमएस दोनों विकलांग हैं</string>
+                      <string name="setmail7">ईमेल और एसएमएस दोनों विकलांग हैं और अपने खाते भी कॉन्फ़िगर कृपया</string>
+                      <string name="setmail8">पाया कोई ईमेल और पासवर्ड</string>
+                      <string name="setalarm1">आपकी सुरक्षा और उपयोगकर्ता निर्धारित अलर्ट सक्षम हैं</string>
+                      <string name="setalarm2">आपकी सुरक्षा अलार्म सक्षम है; उपयोगकर्ता निर्धारित अलार्म अक्षम है</string>
+                      <string name="setalarm3">उपयोगकर्ता निर्धारित अलार्म सक्षम है, सुरक्षा अलार्म अक्षम है</string>
+                      <string name="setalarm4">दोनों उपयोगकर्ता निर्धारित और सुरक्षा अलार्म अक्षम हैं</string>
+                      
+                      
+                      <string name="swiperight">सही गोटो पिछले तिथि को ज़ोर से मारना</string>
+                       <string name="swipeleft">अगली तारीख पर जाने के लिए छोड़ दिया कड़ी चोट</string>
+                       <string name="noreports">कोई रिपोर्ट</string>
+                       <string name="doubleclick">डबल जवाब भेजने के लिए क्लिक करें</string>
+                       <string name="unabletosend">संदेश भेजने में असमर्थ</string>
+                       <string name="smssend">एसएमएस भेजा</string>
+                       <string name="genericfail">जेनेरिक विफलता</string>
+                       <string name="noservice">कोई सेवा नहीं</string>
+                       <string name="nullpdu">अशक्त PDU</string>
+                       <string name="radiooff">रेडियो बंद</string> 
+                       
+                       
+                        <string name="foundat">पर पाया</string>
+                          <string name="youdidntcall">आप के लिए फोन नहीं किया</string>
+                          <string name="forpast">अतीत के लिए</string>
+                          <string name="youhadcall">आप के लिए फोन किया था</string>
+                          <string name="on">में</string>
+                          <string name="fgprovides">FillGap क्लिक संपादित शुरू कर पाने के लिए, अपने कॉल लॉग्स के बारे में सूचित करने के लिए सूचना प्रदान करता है</string>
+                          <string name="nocontfound">नाम के साथ मिला कोई संपर्क नहीं</string>
+                          <string name="contfound">संपर्कों पाया, सत्यापित करें..</string>
+                          <string name="wantreadcalllogs">के अपने कॉल लॉग को पढ़ने के लिए चाहता है</string>
+                          <string name="wantcalllog">की कॉल लॉग्स चाहता है</string>
+                          <string name="noinfofound">के लिए मिला कोई सूचना नहीं</string>
+                          <string name="wantcalllogbtwn">बीच में कॉल लॉग्स चाहता है</string>
+                          <string name="userspent">उपयोगकर्ता का खर्च किया था</string>
+                          <string name="seconcall">फोन कॉल पर सेकंड</string>
+                          <string name="wantsmsg">दिन का संदेश जानना चाहता है</string>
+                          <string name="nomsgfoundnum">संख्या के लिए मिला कोई संदेश नहीं</string>
+                          <string name="wantmsg">के संदेशों चाहता है</string>
+                          <string name="wantbtrystat">अपनी बैटरी की स्थिति जानना चाहता है</string>
+                          <string name="wantknwdebit">आपके डेबिट जानना चाहता है</string>
+                          <string name="wantknwcredit">आपके क्रेडिट के बारे में जानना चाहता है</string>
+                          <string name="wantknwappinstall">अपने मोबाइल में इंस्टॉल किए गए एप्लिकेशन के बारे में जानना चाहता है</string>
+                          <string name="wantmsdcalllist">चूक कॉल की सूची चाहता है</string>
+                          <string name="andname">और नाम</string>
+                          <string name="servicenoton">सेवाओं या नहीं पर</string>
+                          <string name="fillgapreminder">FillGap अनुस्मारक</string>
+                          <string name="havefillgapreminder">आप FillGap से अनुस्मारक है.</string>
+                          <string name="todayyour">आज तुम्हारा</string>
+                          <string name="frndsbirthday">मित्र उनके जन्मदिन मना रहे हैं</string>
+                          
+                          <string name="rcvdmsdcall">से प्राप्त मिस कॉल</string>
+                            <string name="at">पर</string>
+                            <string name="rcvdcall">से प्राप्त कॉल</string>
+                            <string name="norcvdcall">कोई प्राप्त कॉल पाया</string>
+                            <string name="calledto">के लिए बुलाया</string>
+                            <string name="hascalled">पर बुलाया है</string>
+                            <string name="spokefor">और के लिए बात की थी</string>
+                            <string name="secon">सेकंड</string>
+                            <string name="hasgvnmsdcall">आप एक मिस कॉल पर दिया गया है</string>
+                            <string name="hascalledme">मुझे बुलाया है</string>
+                            <string name="timesinweek">इस सप्ताह में टाइम्स</string>
+                            <string name="wrongquery">गलत क्वेरी, दिनांक स्वरूप की तरह होना चाहिए</string>
+                            <string name="durationis">अवधि है</string>
+                            <string name="gotmsdcall">से कॉल याद किया गया</string>
+                            <string name="dateformat">तिथि प्रारूप अपवाद: दिनांक स्वरूप की तरह होना चाहिए</string>
+                            <string name="remainbattery">शेष बैटरी है</string>
+                            <string name="batterycharging">बैटरी चार्ज है</string>
+                            <string name="batterynotcharging">बैटरी चार्ज नहीं है</string>
+                            <string name="silentmobile">मोबाइल चुप मोड में है</string>
+                            <string name="vibratemobile">मोबाइल कंपन मोड में है</string>
+                            <string name="generalmobile">मोबाइल जनरल मोड में है</string>
+                            <string name="noapps">कोई क्षुधा मिला</string>
+                            <string name="sorryunabletolocate">पता लगाने के लिए खेद असमर्थ</string>
+                            <string name="addressfound">पता नहीं मिला</string>
+                            <string name="locfound">स्थान पर पाया</string>
+                            <string name="shownum">संख्या दिखाएँ</string>
+                            <string name="error">त्रुटि</string>
+                            <string name="smsto">के लिए एसएमएस</string>
+                            <string name="back">पीछे</string>
+                            <string name="callognotify">प्रवेश अधिसूचना बुलाओ</string>
+                            <string name="hihow">हाय आप कैसे हैं</string>
+                            <string name="sendtoall">सभी को भेजें</string>
+                            <string name="norecordsfound">कोई रिकॉर्ड पाया</string>
+                            <string name="listout">सभी नंबरों को सूची से बाहर</string>
+                            <string name="nonumfound">कोई संख्या पाया</string>
+                            <string name="next">अगला</string>
+                            <string name="nocontfound">कोई संपर्क नहीं मिले</string>
+                            <string name="norecordsfoundwthdate">तारीख के लिए नहीं मिला रिकॉर्ड</string>
+                            <string name="nocallsfoundwthdate">तारीख के लिए नहीं मिला कॉल</string>
+                            <string name="totalcalldur">तिथि के लिए मिला कुल कॉल अवधियों</string>
+                            <string name="selaction">चयन करें कार्रवाई</string>
+                            <string name="sryunabletofind">माफ करना, हम, स्थान के बारे में कृपया अंतरंग उपयोगकर्ता अपने स्थान खोजने में असमर्थ हैं</string>
+                            <string name="dobnotify">जन्मदिन अधिसूचना</string>
+                            <string name="todayfnd">आज अपने मित्र</string>
+                            <string name="iscelebrate">आज जन्मदिन मना रहा है</string>
+                            <string name="bwish">आप दिन, जन्मदिन मुबारक के कई बार आए काश</string>
+                            <string name="lateremind">बाद में मुझे याद दिलाना</string>
+                            <string name="slcttime">चुनिंदा समय</string>
+                            <string name="monthdayyear">महीने के दिन वर्ष</string>
+                            <string name="srynomsg">खेद नहीं आज तक के संदेश पर पाया</string>
+                            <string name="rvdmsg">प्राप्त संदेश</string>
+                            <string name="sntmsg">संदेश भेजने</string>
+                            <string name="hastextme">मुझे पाठ</string>
+                             <string name="timeconver">बार और बातचीत कर रहे हैं</string>
+                            <string name="sentmemsg">मुझे संदेश भेजें</string>
+                            <string name="ctabusivewords">कुछ अपमानजनक शब्द हैं</string>
+                            <string name="hassentmsg">संदेश भेजा है</string>
+                            <string name="searchingfor">के लिए खोज</string>
+                            <string name="nomsgfoundfor">के लिए मिला कोई संदेश नहीं</string>
+                            <string name="nobankstat">पाया कोई बैंक बयान</string>
+                            <string name="accbal">खाता शेष है</string>
+                            <string name="nocreditstat">क्रेडिट के लिए पाया कोई बैंक बयान</string>
+                            <string name="availbal">में उपलब्ध बैलेंस</string>
+                            <string name="foundon">पर मिला</string>
+                            
+                                <string name="tomorrow">कल</string>
+                                <string name="unabletoremove">संदेश निकालने में असमर्थ</string>
+                                <string name="sendlater">बाद में भेजें</string>
+                                <string name="addcttoschedulemsg">अनुसूची संदेश भेजने के लिए संपर्क जोड़ें</string>
+                                <string name="fgnotify">Fillgap अधिसूचना</string>
+                                <string name="share">शेयर</string>
+                                <string name="fetch">लायें</string>
+                                <string name="locate">स्थान</string>
+                                <string name="userloclatt">प्रयोक्ता अक्षांश पर स्थित है</string>
+                                <string name="andlat">और देशांतर</string>
+                                <string name="clickfetch">सटीक स्थान को पुनः प्राप्त करने के लिए ले आओ क्लिक करें</string>
+                                <string name="retrieve">पुन: प्राप्त करने</string>
+                                <string name="plswait">कृपया! इंतजार</string>
+                                <string name="loadingmsg">लोड हो रहा है संदेश</string>
+                                <string name="loadingg">लोड हो रहा है</string>
+                                <string name="importingg">आयात</string>
+                                <string name="loadbirthday">हम जन्मदिन लोड कर रहे हैं, कृपया प्रतीक्षा करें</string>
+                                <string name="contactfb">संपर्क करना FaceBook</string>
+                                <string name="this_week">इस सप्ताह</string>
+                                <string name="this_month">इस महीने</string>
+                                <string name="sms">sms</string>
+                                <string name="call_cost">कॉल लागत</string>
+                                <string name="sms_cost">एसएमएस लागत</string>
+                                
+              
+                                <string name="deleteselect">हटाएँ चयनित</string> 
+                                
+                                 <string name="calls">कॉल</string>
+                             
+                                 <!-- tab adapter -->
+                                 <string name="yearly">वार्षिक</string>
+            
+            <string name="drawer_open">स्लाइडर मेनू खोला</string>
+    <string name="drawer_close">स्लाइडर मेनू बंद</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+       
+        <item >Home</item>
+        <item >Alarms</item>
+        <item >Schedules</item>
+        <item >Queries</item>
+        <item>Reports</item>
+        <item >Settings</item>
+      
+    </string-array>
+    
+    
+  
+    <!-- call reports options -->
+     <string-array name="call_reports">
+     <item >दैनिक शीर्ष 10 कॉल</item>
+      <item >साप्ताहिक शीर्ष 10 कॉल</item>
+       <item >संख्या की कॉल लॉग</item>
+        <item >साप्ताहिक शीर्ष _ कॉल</item>
+         <item >मासिक शीर्ष _ कॉल विश्लेषक</item>
+          <item >कॉल विश्लेषक के बीच</item>
+          </string-array>
+          
+     <!-- sms reports options -->
+      <string-array name="sms_reports">
+     <item >संख्या के एसएमएस?</item>
+        </string-array>
+        
+      <!-- Reportsssssssssssssss -->
+      <string-array name="Reports_name">
+          <item>कॉल</item>
+          <item>एसएमएस</item>
+      </string-array>
+      
+      <!-- Reports imagesss -->
+      <string-array name="reports_image">
+          <item >R.drawable.call</item>
+          <item >R.drawable.message_icon</item>
+      </string-array>
+     
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/hmsettings</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">आइटम चिह्न</string>
+            
+     
+    
+     
+       <string name="menu_settings">सेटिंग्स</string>
+       <string name="menu_insert">समूह जोड़ें</string>
+        <string name="menu_deletegroup">समूह हटाएं</string>
+        <string name="menu_insert11">संपर्क जोड़ें</string>
+       <string name="menu_add_ctogroup">समूह में संपर्क जोड़ें</string>
+       <string name="hello">हैलो</string>
+       <string name="title_send_sms">एसएमएस भेजें</string>
+    
+       <string name="Groupname">समूह का नाम</string>
+       <string name="confirm">सहेजें</string>
+     
+        
+       <string name="speak">बोलो</string>
+       <string name="menu_delete">निकालें</string>
+       <string name="menu_edit">संपादित करें</string>
+       <string name="menu_addcontacttogroup">समूह में संपर्क जोड़ें</string>
+       <string name="pref_task_title_key">टास्क शीर्षक प्रमुख</string>
+       <string name="hnt_et_name">नाम</string>
+       <string name="hnt_et_mobile_phone">मोबाइल फ़ोन</string>
+       <string name="hnt_et_home_phone">घर का फोन</string>
+       <string name="hnt_et_home_email">व्यक्तिगत ईमेल</string>
+       <string name="hnt_et_work_email">काम ईमेल</string>
+       <string name="str_btn_add">संपर्क जोड़ें</string>
+
+       <string name="inbox_messages">इनबॉक्स संदेश</string>
+       <string name="contact_activity">संपर्कसंपर्क</string>
+       <string name="group_activity">समूह</string>
+       <string name="contact_add">संपर्क जोड़ें</string>
+       <string name="tempelate_activity">अनुसूची</string>
+       <string name="settings">सेटिंग्स</string>
+        <string name="your_alarm">संदेश कार्यक्रम निर्धारित</string>
+       <string name="group_contact_activity">संपर्क समूह से जोड़ें</string>
+       <string name="group_add">समूह जोड़ें</string>
+       <string name="typemsg">प्रकार संदेश</string>
+        <string name="menu_edit_contact">संपादित संपर्क</string>
+       <string name="app_id">268651109963113</string>
+       
+    <!--  settings screen strings -->
+       
+       <string name="auto_response_to_all_contacts">सभी ऑटो रिस्पांस</string>
+       <string name="auto_response_to_fillgap_contacts">FillGap संपर्क करने के लिए ऑटो रिस्पांस</string>
+       <string name="alarms">अलार्म</string>
+       <string name="user_defined_alarms">उपयोगकर्ता परिभाषित अलार्म</string>
+       <string name="default_alarms">सुरक्षा अलार्म</string>
+       <string name="schedules">अनुसूचियां</string>
+       <string name="scheduling">निर्धारण</string>
+       <string name="alarm_notification">अलार्म अधिसूचना</string>
+       
+       <!-- facebook app id -->
+       <string name="app_id">268651109963113</string>
+       
+       
+       <!-- profile screen hints -->
+       <string name="relationemail">ईमेल आईडी दर्ज करें</string>
+       
+       <!-- battery lowwww text -->
+       <string name="restart_txt">फोन को पुनः आरंभ और बैटरी की स्थिति है किया गया है:</string>
+       
+       <!-- alarmsssssssssssssssssssssssssss -->
+         <string name="weekly_top_call_analyzer">साप्ताहिक शीर्ष कॉल विश्लेषक</string>
+         <string name="monthly_top_call_analyzer">मासिक शीर्ष कॉल विश्लेषक</string>
+         <string name="battery_low_analyzer">बैटरी कम विश्लेषक</string>
+         <string name="phone_restart_analyzer">फोन पुनः आरंभ विश्लेषक</string>
+         
+         <!-- main screeen stringss -->
+         <string name="schedule_text">अपने प्रियजनों अनुसूची मैसेजिंग के साथ जुड़ा हो जाओ</string>
+         <string name="no_schedule">कोई कार्यक्रम पाया</string>
+         
+         <!-- reports layout stringssssss -->
+         <string name="call_logs">कॉल लॉग्स</string>
+         <string name="cost">कॉस्ट -</string>
+         <string name="dash">----</string>
+         <string name="incoming">आवक</string>
+         <string name="out_going">बाहर जा रहे हैं</string>
+         <string name="top_callers">शीर्ष कॉलर्स</string>
+         <string name="sms_logs">एसएमएस लॉग्स</string>
+         <string name="total">कुल</string>
+         <string name="recieved">प्राप्त</string>
+         <string name="sent">भेजे गए</string>
+         <string name="data_usage">डेटा उपयोग</string>
+         <string name="top">ऊपर</string>
+         
+         
+         <!-- -Toast messages -->
+         <string name="startalarms">अलार्म शुरू किया गया है</string>
+          <string name="unablestartalarms">अलार्म शुरू करने में असमर्थ</string>
+          <string name="stopalarms">अलार्म बंद कर दिया गया</string>
+          <string name="unablestopalarms">अलार्म बंद करने में असमर्थ</string>
+          <string name="emailnotify">सेट ईमेल से पहले अपने गूगल खाते बटन कॉन्फ़िगर करें क्लिक करके अपना ईमेल और पासवर्ड अधिसूचना दर्ज करें</string>
+          <string name="calerror">कैलेंडर त्रुटि</string>
+          <string name="checkemail">एक बार अपने ईमेल और पासवर्ड की जाँच करें, हम इस पहचान के साथ प्रमाणित करने में असमर्थ हैं</string>
+          <string name="correctemail">कृपया! सही मेल और पासवर्ड दर्ज</string>
+          <string name="dnttouch">इसके लोड करते समय स्क्रीन को छूने न करें</string>
+          <string name="checkinternet">आपके इंटरनेट कनेक्शन की जाँच कृपया</string>
+          <string name="unabletodelete">plz बाद में पुन: प्रयास संदेश को हटाने में असमर्थ</string>
+          <string name="nomsg">कोई संदेश</string>
+          <string name="selectmsg">नष्ट करने के लिए कम से कम एक संदेश का चयन करें</string>
+          <string name="entertext">पाठ दर्ज करें</string>
+          <string name="cancelalarm">अलार्म रद्द कर रहे हैं</string>
+          <string name="noalarm">कोई अलार्म</string>
+          <string name="numberverify">अपना नंबर सत्यापित करें</string>
+          
+           <string name="unablelocate">आइटम पता लगाने में असमर्थ</string> 
+            <string name="deletealarms">अलार्म हटाएं किया गया हैd</string>
+                  <string name="deleteprealarms">क्षमा करें! हटाना पूर्वनिर्धारित अलार्म के लिए उपलब्ध नहीं है</string>
+                  <string name="newnotification">नई अधिसूचना बनाया</string>
+                  <string name="createalarm">नई अलार्म बनाया गया है</string>
+                  <string name="nullfreq">आवृत्ति रिक्त है</string>
+                  
+                   <string name="unabledelete">हटाने में असमर्थ</string>
+                  <string name="nocontacts">कोई और मित्र....</string>
+                  <string name="alarmsremove">अलार्म हटा दिया जाएगा</string>
+                  <string name="updatealarms">अलार्म अद्यतन किया गया है..</string>
+                  <string name="restartalarms">अलार्म पुनः आरंभ कर दिया गया है..</string>
+                  
+                  <string name="interneton">इंटरनेट पर</string>
+                  <string name="internetoff">इंटरनेट बंद</string>
+                  <string name="duplicateon">पर इंटरनेट के लिए कॉल नकल</string>
+                  <string name="duplicateoff">बंद इंटरनेट के लिए कॉल नकल</string>
+                  
+                   <string name="successfullmsg">संदेश सफलतापूर्वक भेजा</string>
+                    <string name="ctaddsuccess">संपर्कों को सफलता पूर्वक जोड़</string>
+                    <string name="unablectadd">संपर्क जोड़ने में असमर्थ</string>
+                    <string name="nogroups">कोई समूह मौजूद</string>
+                    <string name="unabletoprocess">सही अब कार्रवाई करने में अक्षम</string>
+                    <string name="feelingshare">लग रहा है सफलतापूर्वक साझा किया गया है</string>
+                    <string name="unablefetchloc">स्थान लाने के लिए खेद असमर्थ</string>
+                    <string name="userloc">उपयोगकर्ता पर स्थित है</string>
+                    <string name="groupsdeletescucess">समूह सफलतापूर्वक नष्ट कर दिया</string>
+                    <string name="groupcreate">समूह बनाया</string>
+                    <string name="unableloadclick">क्षमा करें! फिर कुछ समय की कोशिश के लिए यहां क्लिक लोड करने में असमर्थ</string>
+                    <string name="fgnotifybirthday">FillGap अपने मित्रों जन्मदिन भरी हुई है और विशेष दिन पर सूचित करेंगे</string>
+</resources>

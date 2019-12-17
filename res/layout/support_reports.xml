@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+  
+    android:padding="5dp" >
+    
+    <LinearLayout
+        android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:background="#EDC9AF">
+        
+        
+
+    <ImageView
+        android:id="@+id/grid_image"
+        android:layout_width="50dp"
+        android:layout_height="69dp"
+         android:layout_marginLeft="5dp"
+        android:src="@drawable/a"
+         >
+    </ImageView>
+    
+     
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp" >
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text2"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="count"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/duration_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="count"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/toppers_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="top"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp" />
+        
+        
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+    <ImageView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tips" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

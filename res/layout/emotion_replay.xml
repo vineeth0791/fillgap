@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/writetext"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.70" >
+
+        <TextView
+            android:id="@+id/writetext"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"
+            android:textSize="30px"
+            android:textColor="#E32636"
+         
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/writetext"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="21dp"
+            android:visibility="invisible"
+            android:text="Send" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_below="@+id/editText1"
+             android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/progressBar1"
+            android:layout_toRightOf="@+id/progressBar1"
+            android:text="sending..."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/writetext"
+            android:layout_alignLeft="@+id/writetext"
+            android:layout_alignParentRight="true"
+            android:ems="3" 
+            android:maxLength="160"
+            android:hint="Enter Your Message"
+            android:background="@android:color/transparent" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+</LinearLayout>

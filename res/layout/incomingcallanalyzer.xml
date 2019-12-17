@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+       <TextView
+        android:id="@+id/freqtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/setfreq" />
+       
+       
+       <EditText
+        android:id="@+id/editText1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/freqtextview"
+        android:layout_alignBottom="@+id/freqtextview"
+        android:layout_toRightOf="@+id/freqtextview"
+        android:ems="10"
+        android:hint="3"
+        android:inputType="number" />
+       
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_toRightOf="@+id/textView1"
+         />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/editText1"
+            android:text="@string/times" />
+        
+    </RelativeLayout>
+
+ <RelativeLayout
+     android:id="@+id/relativelayout1"
+     android:layout_width="wrap_content"
+     android:layout_height="150dp"
+     android:layout_below="@+id/relativelayout" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/informto" />
+    
+        </RelativeLayout>
+
+<ListView
+    android:id="@+id/nocalllistView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/relativelayout1"
+    android:divider="#ffffff"
+    android:dividerHeight="2dp" >
+</ListView>
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/relativelayout1"
+    android:layout_marginTop="32dp"
+    android:layout_toRightOf="@+id/relativelayout1"
+    android:src="@drawable/cont" />
+ 
+</RelativeLayout>

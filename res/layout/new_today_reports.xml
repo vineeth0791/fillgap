@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/today_reports_rectangle" >
+
+        <TextView
+            android:id="@+id/calllogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/call_logs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF1C00" />
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/calllogs"
+            android:layout_alignBottom="@+id/calllogs"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="93dp"
+            android:text="@string/cost"
+            android:textColor="#FF1C00" />
+
+        <TextView
+            android:id="@+id/display_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cost"
+            android:layout_alignBottom="@+id/cost"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="48dp"
+            android:text="@string/dash"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#B22222" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/today_reports_rectangle" >
+
+            <TextView
+                android:id="@+id/display_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#CE1620" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/display_total"
+                android:layout_below="@+id/display_total"
+                android:text="@string/total"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/display_total_mins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/total"
+                android:layout_toRightOf="@+id/display_total"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#B22222" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/today_reports_rectangle" >
+
+            <TextView
+                android:id="@+id/display_total_incoming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#CE1620" />
+
+            <TextView
+                android:id="@+id/incoming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/display_total_incoming"
+                android:layout_below="@+id/display_total_incoming"
+                android:text="@string/incoming"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/display_incoming_mins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/incoming"
+                android:layout_toRightOf="@+id/display_total_incoming"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#B22222" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="161dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/today_reports_rectangle" >
+
+            <TextView
+                android:id="@+id/display_total_outgoing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/display_outgoing_mins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/outgoing"
+                android:layout_toRightOf="@+id/display_total_outgoing"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#B22222" />
+
+            <TextView
+                android:id="@+id/outgoing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/display_total_outgoing"
+                android:layout_below="@+id/display_total_outgoing"
+                android:text="@string/out_going"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/today_reports_rectangle" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top_callers"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#CE1620" />
+
+            <TextView
+                android:id="@+id/top_callers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dash"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/today_reports_rectangle" >
+
+        <TextView
+            android:id="@+id/smslogs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/sms_logs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF1C00" />
+
+        <TextView
+            android:id="@+id/sms_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/smslogs"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/smslogs"
+            android:text="@string/cost"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/display_sms_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/smslogs"
+            android:layout_alignBottom="@+id/smslogs"
+            android:layout_toRightOf="@+id/sms_cost"
+            android:text="@string/dash"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/today_reports_rectangle" >
+ 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/total_sms"
+            android:text="@string/total"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/total_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/dash"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+    
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/today_reports_rectangle" >
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="2dp"
+             android:layout_marginTop="2dp"
+             android:text="@string/dash"
+             android:textAppearance="?android:attr/textAppearanceSmall" />
+
+         <TextView
+             android:id="@+id/total_recieved"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView2"
+             android:text="@string/recieved"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </RelativeLayout>
+        
+      <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/today_reports_rectangle" >
+
+          <TextView
+              android:id="@+id/total_sent"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+            
+            android:layout_marginLeft="2dp"
+             android:layout_marginTop="2dp"
+              android:text="@string/dash"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@+id/total_sent"
+              android:layout_below="@+id/total_sent"
+              android:text="@string/sent"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

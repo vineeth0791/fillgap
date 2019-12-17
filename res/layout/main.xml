@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#ffeaeaea">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffeaeaea" >
+    
+    <LinearLayout  
+        android:orientation="vertical" 
+        android:background="@drawable/panel" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.0dip"
+        android:layout_marginLeft="3.0dip"
+        android:layout_marginRight="3.0dip">
+               
+           
+   
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="1dp"
+       android:layout_marginLeft="1dp"
+        android:text="@string/enternoemail" />
+     <LinearLayout
+            
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/smsnumber"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+         android:hint="@string/hint4"
+        />
+     <ImageButton
+        android:id="@+id/getc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_alignTop="@+id/textView2"
+        android:src="@drawable/cont" />
+    </LinearLayout>
+    
+      </LinearLayout>
+      
+     <LinearLayout  
+        android:orientation="vertical" 
+        android:background="@drawable/panel" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+         android:layout_marginLeft="3.0dip"
+        android:layout_marginRight="3.0dip">
+     
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_below="@+id/smsnumber"
+        android:text="@string/typemsg" />
+
+    <EditText
+        android:id="@+id/smstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinnerstate"
+        android:layout_marginLeft="1dp"
+        android:ems="10" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:text="@string/attachquote"
+        android:textSize="15px" />
+    
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/spinnerstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginLeft="1dp" />
+     <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_above="@+id/datePicker" />
+     
+     
+     <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+         android:layout_above="@+id/startalarm" />
+ 
+
+    <Button
+        android:id="@+id/startalarm"
+        android:layout_width="100.0dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cancelalarm"
+        android:text="Start"
+        android:onClick="click" />
+    
+
+    
+   
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"        
+        android:hint="@string/hnt_et_name" />
+    
+    <EditText
+        android:id="@+id/et_mobile_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  
+        android:layout_below="@id/et_name"     
+        android:inputType="phone" 
+        android:hint="@string/hnt_et_mobile_phone" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_work_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"     
+        android:layout_below="@+id/et_mobile_phone"
+        android:inputType="textEmailAddress"   
+        android:hint="@string/hnt_et_work_email" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_work_email"
+        android:layout_marginTop="96dp"
+        android:text="@string/str_btn_add" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_work_email"
+        android:ems="10" />
+
+  
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_work_email"
+        
+        android:text="@string/birthday" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editText2"
+        android:text="@string/anniv" />
+    
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibetter.Fillgap"
+    android:versionCode="22"
+    android:versionName="2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+    
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+     <uses-permission android:name="android.permission.READ_SMS" />
+      <uses-permission android:name="android.permission.WRITE_SMS"/>
+       <uses-permission android:name="android.permission.SEND_SMS" />
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+         <uses-permission android:name="android.permission.READ_CALL_LOG" />
+          <uses-permission android:name="android.permission.VIBRATE"/>
+           <uses-permission android:name="android.permission.RECEIVE_SMS" />
+            <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+             <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+              <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+               <uses-permission android:name="android.permission.GET_TASKS" />
+                <uses-permission android:name="android.permission.INTERNET" />
+                 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+                  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+                   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+                    <uses-permission android:name="android.permission.BATTERY_STATS" />
+                     <uses-permission android:name="android.permission.BATTERY_STATS" />
+                      
+                      
+                   
+                   
+                  
+   
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fillgap"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+       
+         android:screenOrientation="portrait">
+        
+        <activity
+            android:name="com.ibetter.fragments.NewMainScreen"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+         <activity android:name="com.facebook.LoginActivity" />
+          
+        <activity android:name="com.ibetter.Fillgap.SwipeActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+         <activity android:name=".AndroidTabLayoutActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden" />
+          <activity android:name=".ContactActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+          <activity android:name=".GroupActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+           <activity android:name=".Test" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden" />
+            <activity android:name="com.ibetter.fragments.Profile" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+              <activity android:name=".IntelligentFillgapAlarms" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+              <activity android:name=".ShareYourEmotions" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+               <activity android:name="com.ibetter.emotions.LoadLoveScreen" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                <activity android:name=".AndroidAlarmSMS" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                 <activity android:name=".SmsReplay" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                  <activity android:name="com.ibetter.model.SupportService" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                   <activity android:name="com.ibetter.fragments.NewAlarms" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                    <activity android:name=".QueryNotifications" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                     <activity android:name=".SearchLocation" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                      <activity android:name="com.ibetter.fragments.Settings" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                       <activity android:name=".DisplyFriendsBirthday" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                        <activity android:name=".FaceBookFriendsBirthDay" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                         <activity android:name=".ShowAlarmNotifications" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                          <activity android:name=".ShowScheduleErrorNotification" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                           <activity android:name="com.ibetter.activities.ScheduleActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                            <activity android:name="com.ibetter.fragments.Reports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                             <activity android:name="com.ibetter.Fillgap.AddYourSafeguard" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                              <activity android:name="com.ibetter.Fillgap.TotalAlarms" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                               <activity android:name="com.ibetter.Fillgap.Tempelates" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                <activity android:name="com.ibetter.Fillgap.Queries" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                 <activity android:name="com.ibetter.Fillgap.SafetyTabActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                  <activity android:name="com.ibetter.Fillgap.ScheduleForRelation" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                   <activity android:name="com.ibetter.fragments.ShowReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                    <activity android:name="com.ibetter.fragments.SMSReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                     <activity android:name="com.ibetter.fragments.QuerySettings" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                      <activity android:name="com.ibetter.fillgapreports.NewTodayReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                        <activity android:name="com.ibetter.fillgapreports.NewWeeklyReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.ReportsTab" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                          <activity android:name="com.ibetter.fillgapreports.MonthlyReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                           <service android:name="com.ibetter.service.LoadSmstoDb" />
+                                             <activity android:name="com.ibetter.fillgapreports.TodayCallReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                       <activity android:name="com.ibetter.fillgapreports.WeeklyCallReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                        <activity android:name="com.ibetter.fillgapreports.CallReportsTab" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                        <activity android:name="com.ibetter.fillgapreports.ShowReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.MonthlyCallReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.TodaySMSReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.WeeklySMSReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.MonthlySMSReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.SMSReportsTab" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                          <activity android:name="com.ibetter.fragments.DisplayMessages" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                           <activity android:name="com.ibetter.fillgapreports.TodayDataUsageReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.DataUsageReportsTab" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.WeeklyDataUsageReport" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.MonthlyDataUsageReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                         <activity android:name="com.ibetter.fillgapreports.YearlySMSReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                          <activity android:name="com.ibetter.fillgapreports.YearlyCallReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                          <activity android:name="com.ibetter.fillgapreports.YearlyDataUsageReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                          <activity android:name="com.ibetter.fillgapfinance.FinancialReports" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"/>
+                                          
+                  
+             //// servicesssssssss
+             
+    
+     <service android:name="com.ibetter.service.LoadThreadMessages" />
+      <service android:name="com.ibetter.service.FillGapAlarmNotifications" />
+      <service android:name="com.ibetter.service.FillgapIntelligentService" />
+      <service android:name="com.ibetter.service.CheckForEmotion" />
+      <service android:name="com.ibetter.service.SearchingSupport" />
+       <service android:name="com.ibetter.service.DoInBackGround" />
+       <service android:name="com.ibetter.service.SetScheduleForBirtday" />
+      <service android:name="com.ibetter.service.MyAlarmService" android:process=":remote" >
+          
+          
+      
+          
+         <intent-filter>
+        <data android:scheme="timer:" />
+    </intent-filter>
+     </service>
+      <service android:name="com.ibetter.service.QuotesService" />
+      
+        <service android:name="com.ibetter.service.SyncAlarms"  />
+         <service android:name="com.ibetter.service.MsgAlarms"  />
+          <service android:name="com.ibetter.service.LoadContacts"  />
+           <service android:name="com.ibetter.service.FillGapQueries"  />
+            <service android:name="com.ibetter.service.FetchMyLocation"  />
+             <service android:name="com.ibetter.service.SetAlarmsForFBBirthday" />
+              <service android:name="com.ibetter.service.InformFriendsBirthday"  android:process=":remote"/>
+               <service android:name="com.ibetter.service.ScheduleError" />
+               
+                <service android:name="com.ibetter.service.RestartSchedules" />
+                  <service android:name="com.ibetter.service.RestartAlarms" />
+                   <service android:name="com.ibetter.service.FetchReports" />
+                    <service android:name="com.ibetter.service.LoadCalllogstoDb" />
+                     <service android:name="com.ibetter.service.BatteryLowAnalyzer" />
+                      <service android:name="com.ibetter.service.PhoneRestartAnalyzer" />
+                       <service android:name="com.ibetter.service.FetchReports" />
+                        <service android:name="com.ibetter.service.FetchSMSReports" />
+                         <service android:name="com.ibetter.service.LoadSmstoDb" />
+                          <service android:name="com.ibetter.service.UpdateDataUsage" />
+                         <service android:name="com.ibetter.service.SetNewDataUsage" />
+                         <service android:name="com.ibetter.service.RegisterContentObserver" />
+                         <service android:name="com.ibetter.service.UpdateFinanceSms" />
+                         <service android:name="com.ibetter.service.CreateCSVForAllReports" />
+
+         
+        
+      
+      //// recieversssssssssssss
+       
+         <receiver android:name="com.ibetter.recievers.PhoneStateChangeReciever">
+        <intent-filter>
+            <action android:name="android.intent.action.PHONE_STATE" /> 
+        </intent-filter>
+         </receiver>
+      
+         <receiver
+            android:name="com.ibetter.recievers.IncomingMsg"
+           >
+            <intent-filter android:priority="2147483640">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                  <action android:name="android.provider.Telephony.SMS_SENT"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483640">
+                <action android:name="android.provider.Telephony.GSM_SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        
+         ///for boot complete listener
+         
+         <receiver android:name="com.ibetter.recievers.BootcompleteReceiver">  
+           <intent-filter>  
+    <action android:name="android.intent.action.BOOT_COMPLETED" />  
+   </intent-filter> 
+    
+  </receiver> 
+  
+         //for battery recievver
+         
+         <receiver android:name="com.ibetter.recievers.BatteryLevelReceiver">
+<intent-filter>
+  <action android:name="android.intent.action.ACTION_BATTERY_LOW"/>
+  
+  </intent-filter>
+</receiver>
+
+           //for internet changes 
+     
+      <receiver android:name="com.ibetter.recievers.InternetReciever">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE">
+
+                </action>
+            </intent-filter>
+        </receiver>
+  
+       
+  
+        
+     
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>    
+    </application>
+    
+    
+    
+    
+   
+     
+
+</manifest>

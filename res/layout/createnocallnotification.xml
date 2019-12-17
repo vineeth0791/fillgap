@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="318dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+   <EditText
+       android:id="@+id/nocalledittext"
+       android:layout_width="206dp"
+       android:layout_height="wrap_content"
+       android:hint="@string/manualtype" />
+
+   <ImageButton
+       android:id="@+id/imageButton1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:src="@drawable/cont"  />
+
+</LinearLayout>
+   <ListView
+        android:id="@+id/nocalllistView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:divider="#ffffff"
+        android:dividerHeight="2dp" >
+    </ListView> 
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal" >
+
+<TextView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/nocalltextview"
+    android:text="Remind at Every:"/>             
+           
+   <EditText 
+    android:layout_height="wrap_content"
+    android:layout_width="80dp"
+    android:hint="1"
+    android:id="@+id/nocalledittext2"/>
+   
+ <TextView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/nocalltextview2"
+    android:text=" Days"/>            
+    </LinearLayout>
+     <LinearLayout
+            
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+ 
+ <TextView  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/nocalltextview3"
+    android:text="Select Time:"/>  
+     <TimePicker
+        android:id="@+id/newnocallfreqtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          />
+ </LinearLayout>
+</LinearLayout>

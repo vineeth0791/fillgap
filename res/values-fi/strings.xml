@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Fillgap</string>
+    <string name="hello_world">Moikka maailma!</string>
+    <string name="action_settings">asetukset</string>
+      <string name="desc">Lisää</string>
+       <string name="some_hint">haku</string>
+         <string name="some_hint1">asiakasnumero</string>
+          <string name="some_hint2">asiakkaan nimi</string>
+            <string name="some_hint3">Yleiset</string>
+            <string name="strAll">Kaikki</string>
+            <string name="queries">kyselyt</string>
+            <string name="configureaccount">Määritä Gmail/Yahoo tili</string>
+            
+            <string name="update">Päivitä</string>
+             <string name="showpwd">Näytä Salasana</string>
+             <string name="enterpwd">Anna salasana</string>
+             <string name="entermail">Anna Mail (Google / Yahoo)</string>
+             <string name="maildialogbox">Anna Google / Yahoo sähköpostin ja salasanan alkaa lähettämään viestit:</string>
+             <string name="info">tietoa</string>
+             <string name="impfb">Oletko varma tuoda ystävien syntymäpäivät Facebookista. Klikkaa OK jatkaaksesi</string>
+             <string name="schedule_messages">aikataulu Viesti</string>
+             <string name="phno">puhelinnumeroita:</string>
+              <string name="content">sisältö:</string>
+              <string name="enternoemail">Näppäile puhelinnumero / sähköposti</string>
+              <string name="hint4">Split numero / email kanssa puolipisteellä</string>
+              <string name="attachquote">Kiinnitä Quote</string>
+              <string name="loadfb">Sitten ladata FB Syntymäpäivät</string>
+              <string name="entername">kirjoita nimi</string>
+              <string name="enternum">Näppäile numero</string>
+              <string name="entergname">Kirjoita groupname</string>
+              <string name="autoreply">Syötä automaattinen vastausviesti</string>
+              <string name="hint5">Anna puhelinnumero</string>
+              <string name="from">alkaen</string>
+              <string name="to">Jos haluat</string>
+              <string name="birthday">syntymäpäivä</string>
+              <string name="anniv">vuosipäivä</string>
+              <string name="manualtype">haluaa syöttää manuaalisesti kirjoita tähän</string>
+              <string name="textlimit">Teksti Raja on ohi</string>
+              <string name="select">Valitse</string>
+              <string name="setfreq">Aseta taajuus</string>
+              <string name="informto">ilmoitettava asiasta:</string>
+              <string name="times">kertaa</string>
+              <string name="call">Soita</string>
+              <string name="deleteall">Poista kaikki</string>
+               <string name="emotions">Emotions-jakaminen</string>
+                <string name="close">sulje</string>
+                <string name="tempelate">Tempelate:</string>
+                <string name="entercontfillgap">Anna puhelinnumero joilla paikataan</string>
+                 <string name="entermsg">Anna viesti</string>
+                  <string name="ask">Kysy?</string>
+                  <string name="alarmtime">hälytyksen aika</string>
+                  
+                 
+                   
+                   
+                <string name="safe">turvata</string>
+                <string name="namecallhistory">Anna nimi, jota soittaa historia haluat tietää</string> 
+                <string name="numbercallhistory">Anna numero, jota soittaa historia haluat tietää</string> 
+                <string name="nummsg">Anna numero, jonka viestit haluat tietää</string>
+                <string name="namemsg">Anna nimi, jonka viestit haluat tietää</string>
+                <string name="existrecp">Varmista, vastaanottajalta myös aikaisempaa käyttäjää fillgap ennen lähettämistä</string>
+                <string name="send">Lähetä</string>
+                 <string name="cancel">Peruuta</string>
+                  <string name="selectdate">valitse päivä</string>
+                  <string name="set">Set</string>
+                  <string name="namecalllog">Anna yhteystiedon nimi, jonka calllog haluat tietää</string>
+                  <string name="numcalllog">Anna puhelinnumero, jonka calllog haluat tietää</string>
+                  
+                  
+                    
+              <string name="setfreqgreater">Aseta taajuus on suurempi kuin 0</string>
+              <string name="everydaynotify">Ilmoittaa päivittäin</string>
+              <string name="everynotify">Ilmoittaa klo Joka</string>
+              <string name="date">päivän</string>
+              <string name="stopnotify">Ilmoittaminen pysähtyi</string>
+              <string name="enternamenum">Anna yhteystiedon nimi/numero</string>
+              <string name="createnew">Luo uusi</string>
+              <string name="selectcontact">valitse yhteyshenkilö</string>
+              <string name="ifdidntcall">Jos et soita</string>
+              <string name="daysnotification">päivän Tulet saada ilmoituksen</string>
+              <string name="forwarddailycalls">Eteenpäin päivittäin top 10 puhelun lokit</string>
+              <string name="forwardweeklycalls">Eteenpäin top 10 puhelulokit tämän viikon</string>
+              <string name="forwardtop">eteenpäin alkuun</string>
+              <string name="monthcalllogs">puhelulokit tässä kuussa</string>
+              <string name="anybodycalls">Jos joku kutsuu sinua enemmän kuin</string> 
+              <string name="timesaday">kertaa päivässä ilmoittaa valitulle yhteystiedot</string>
+              <string name="gotmorecalls">Jos sinulla puheluita yli</string>
+               <string name="timesadaywthunknowncalls">kertaa päivässä tuntematon numero ilmoittaa valitun yhteystiedot</string>
+                <string name="gotmore">Jos sinulla on enemmän kuin</string>
+                 <string name="unknownmsg">Viestien päivä tuntematon numero ilmoittaa valitun yhteystiedot</string>
+                <string name="timesaweek">kertaa viikossa ilmoittaa valitulle yhteystiedot</string>
+                <string name="enternumgreater">Syötä mikä tahansa nollaa suurempi</string>
+                 <string name="entercontactss">Anna yhteystiedot</string> 
+                 <string name="splitmulcontacts">split useita yhteyksiä puolipisteellä</string>
+                 <string name="inday">päivässä ilmoitettava asiasta</string>
+                 <string name="timesadayinform">kertaa päivässä ilmoitettava asiasta</string>
+                  <string name="timesadayinformunknownnum">kertaa päivässä tuntematon numero ilmoittaa sen</string>
+                   <string name="abusivemsg">Jos viesti sisältää loukkaava ilmaisu ilmoitettava asiasta</string>
+                   <string name="msginformto">Viestien päivä tuntemattomasta numerosta ilmoitettava asiasta</string>
+                    <string name="weektimesinformto">kertaa viikossa ilmoitettava asiasta</string> 
+                     <string name="notifiescalllogto">Ilmoitamme puhelu lokit</string> 
+                     <string name="intimatecnum">Anna puhelinnumero intiimi heille Puheluntiedot</string>
+                     <string name="forwardeachmsg">Välittämään jokaisen saapuvan viestin yksityiskohtia</string>
+                     <string name="forwardeachincalls">Välittämään jokaisen saapuvan puhelun yksityiskohtia</string> 
+                     <string name="forwardeachoutcalls">Välittämään jokaisen lähtevän puhelun yksityiskohtia</string>
+                     <string name="forwardeachmsdcalls">Välittämään jokaisen vastaamattoman puhelun yksityiskohtia</string>
+                     <string name="forwardbankmoney">Eteenpäin pankkirahaa peruuttaa lausunnot</string> 
+                     <string name="informbatterystatus">Tiedottaa akun tilaksi</string>
+                     <string name="wnbattery"> Kun akku on vähissä</string>
+                     <string name="mobrestarts">aina matkapuhelimellasi käynnistyy uudelleen</string> 
+                     <string name="ifdcall">Jos puhelun</string> 
+                     <string name="notanswer">ei ole vastattu sen jälkeen ilmoitettava jossa autom teksti-</string>
+                     
+                     <string name="conversation">keskustelu</string> 
+                    <string name="areyoursure">Oletko varma poistaa</string> 
+                    <string name="confirmation">vahvistus</string>
+                    <string name="contactremove">Yhteystieto poistetaan</string>
+                    <string name="adding">lisääminen......</string>
+                    <string name="yes">Kyllä</string>
+                    <string name="no">ei</string>
+                    <string name="remalarm">Haluatko poistaa liittyvät hälytykset</string>
+                     <string name="stpalarm">Hälytyksen lopettaminen</string>
+                     <string name="sttalarm">Käynnistä hälytys</string>
+                     <string name="forwardcallandmsg">Välittämään kunkin Soita ja Viestin tiedot, jos haluat</string>
+                     
+                     
+                      <string name="today">tänään</string>
+                      <string name="week">viikoittain</string>
+                      <string name="month">kuukausittain</string>
+                      <string name="addsafeguards">lisätään varmistuksia</string>
+                      <string name="noschdmsgs">Ole säännöllistä viestejä tänään</string>
+                      <string name="todaynoalarm">Ei Hälytykset tänään</string>
+                      <string name="querytxt">Kyselyt: -Kaikki voi kysellä lisäät suojatoimenpiteet</string>
+                      <string name="querytxt1">Kyselyt: -Excludes teidän turvata pysyy kaikki voi kysyä sinua</string>
+                      <string name="querytxt2">Kyselyt: -Your turvata vain kysellä sinua</string>
+                      <string name="querytxt3">Kyselyt: -Ei voi kysellä sinua</string>
+                      <string name="notifyenable">Ilmoitus on käytössä</string>
+                      <string name="notifydisable">Ilmoitus on poistettu käytöstä</string>
+                      <string name="nonotify">Ilmoitusta ei löytynyt</string>
+                      <string name="emailsmsenable">Sähköposti ja tekstiviestit molemmat ovat käytössä</string>
+                      <string name="setmail1">SMS ja sähköposti ovat käytössä, ole hyvä ja määritä tilisi</string>
+                      <string name="setmail2">Sähköposti on käytössä, sms on poistettu käytöstä</string>
+                      <string name="setmail3">Sähköposti on käytössä, sms on poistettu käytöstä ja konfiguroi tilisi liian</string>
+                      <string name="setmail4">SMS on käytössä, sähköpostia ei ole käytössä</string>
+                      <string name="setmail5">SMS on käytössä, sähköpostia ei ole käytössä ja konfiguroi tilisi liian</string>
+                      <string name="setmail6">Sähköposti ja tekstiviestit molemmat ovat poissa käytöstä</string>
+                      <string name="setmail7">Sähköposti ja tekstiviestit molemmat ovat vammaisia ​​ja konfiguroi tilisi liian</string>
+                      <string name="setmail8">Ei sähköpostiosoite ja salasana löytyi</string>
+                      <string name="setalarm1">Sinun Turvaa ja käyttäjän määrittelemät hälytykset ovat käytössä</string>
+                      <string name="setalarm2">Sinun Turvaa hälytys on käytössä; Käyttäjän määrittämä hälytys ei ole käytössä</string>
+                      <string name="setalarm3">Käyttäjän määrittämä-hälytys on käytössä, Turvaa hälytys ei ole käytössä</string>
+                      <string name="setalarm4">Sekä Käyttäjän määrittämä ja turvata hälytykset ovat pois käytöstä</string>
+                      
+                      
+                      <string name="swiperight">Pyyhkäise oikealle goto aikaisempaan</string>
+                       <string name="swipeleft">pyyhkäise vasemmalle mennä seuraavana päivänä</string>
+                       <string name="noreports">ei raportteja</string>
+                       <string name="doubleclick">Tuplaklikkaa lähettää vastauksen</string>
+                       <string name="unabletosend">Ei voi lähettää viestin</string>
+                       <string name="smssend">Lähetettyjen tekstiviestien</string>
+                       <string name="genericfail">Generic vika</string>
+                       <string name="noservice">ei palvelua</string>
+                       <string name="nullpdu">Null PDU</string>
+                       <string name="radiooff">radion</string> 
+                       
+                       
+                        <string name="foundat">osoitteessa</string>
+                          <string name="youdidntcall">et soita</string>
+                          <string name="forpast">kuluneesta</string>
+                          <string name="youhadcall">olit kutsuttu</string>
+                          <string name="on">On</string>
+                          <string name="fgprovides">FillGap antaa ilmoituksen intiimi noin Puheluntiedot, saat Käynnistä Valitse Muokkaa</string>
+                          <string name="nocontfound">yhteystietoja ei löytynyt nimi</string>
+                          <string name="contfound">Yhteystietoja ei löytynyt, tarkista..</string>
+                          <string name="wantreadcalllogs">haluaa lukea puhelun lokit</string>
+                          <string name="wantcalllog">haluaa soittaa lokit</string>
+                          <string name="noinfofound">Ei tietoja</string>
+                          <string name="wantcalllogbtwn">haluaa puhelulokit välillä</string>
+                          <string name="userspent">Käyttäjän on viettänyt</string>
+                          <string name="seconcall">sekunnin puheluita</string>
+                          <string name="wantsmsg">haluaa tietää viestit päivän</string>
+                          <string name="nomsgfoundnum">Ei viestejä löytynyt numero</string>
+                          <string name="wantmsg">haluaa viestit</string>
+                          <string name="wantbtrystat">haluaa tietää akun tilan</string>
+                          <string name="wantknwdebit">haluaa tietää veloitukset</string>
+                          <string name="wantknwcredit">haluaa tietää opintopistettä</string>
+                          <string name="wantknwappinstall">haluaa tietää asennetut sovellukset matkapuhelimessa</string>
+                          <string name="wantmsdcalllist">haluaa teidän puheluita</string>
+                          <string name="andname">ja nimi</string>
+                          <string name="servicenoton">palveluja tai ei</string>
+                          <string name="fillgapreminder">FillGap Muistutus</string>
+                          <string name="havefillgapreminder">Sinulla on muistutuksen FillGap.</string>
+                          <string name="todayyour">tänään Sinun </string>
+                          <string name="frndsbirthday">Ystävät juhlivat syntymäpäivää</string>
+                          
+                          <string name="rcvdmsdcall">Sai jäänyt puhelun</string>
+                            <string name="at">klo</string>
+                            <string name="rcvdcall">Sai puhelun</string>
+                            <string name="norcvdcall">Ei Vastaanotetut puhelut löytynyt</string>
+                            <string name="calledto">kutsuttu</string>
+                            <string name="hascalled">on kutsuttu koolle</string>
+                            <string name="spokefor">ja puhui</string>
+                            <string name="secon">sekuntia</string>
+                            <string name="hasgvnmsdcall">on antanut sinulle jäänyt puhelun</string>
+                            <string name="hascalledme">on kutsunut minut</string>
+                            <string name="timesinweek">kertaa tällä viikolla</string>
+                            <string name="wrongquery">väärä kyselyn tai päivämäärän pitäisi olla</string>
+                            <string name="durationis">kesto on</string>
+                            <string name="gotmsdcall">mutta jäi puhelun</string>
+                            <string name="dateformat">Päivämäärän muoto Poikkeus: päivämäärän muodon pitäisi olla</string>
+                            <string name="remainbattery">RAkun varaus on</string>
+                            <string name="batterycharging">Akku latautuu</string>
+                            <string name="batterynotcharging">Akku ei lataudu</string>
+                            <string name="silentmobile">Mobile on äänettömällä</string>
+                            <string name="vibratemobile">Mobile on värähtelymoodi</string>
+                            <string name="generalmobile">Mobile on Yleinen-tilassa</string>
+                            <string name="noapps">Ei Apps löydy</string>
+                            <string name="sorryunabletolocate">Anteeksi pysty paikantamaan</string>
+                            <string name="addressfound">osoite löytyi</string>
+                            <string name="locfound">sijainti osoitteesta</string>
+                            <string name="shownum">Näytä numerot</string>
+                            <string name="error">virhe</string>
+                            <string name="smsto">smsto</string>
+                            <string name="back">takaisin</string>
+                            <string name="callognotify">Puhelunkirjauskyky Ilmoitus</string>
+                            <string name="hihow">Hi how are you</string>
+                            <string name="sendtoall">Lähetä kaikille</string>
+                            <string name="norecordsfound">Merkintöjä ei löydy</string>
+                            <string name="listout">Listata kaikki numerot</string>
+                            <string name="nonumfound">Numeroita ei löytynyt</string>
+                            <string name="next">Seuraava</string>
+                            <string name="nocontfound">Kontakteja ei löytyny</string>
+                            <string name="norecordsfoundwthdate">Merkintöjä ei löydy päivämäärän</string>
+                            <string name="nocallsfoundwthdate">puheluita ei löytynyt päivämäärä</string>
+                            <string name="totalcalldur">Yhteensä puhelukestojen löytynyt päivämäärä</string>
+                            <string name="selaction">Valitse toiminta</string>
+                            <string name="sryunabletofind">Valitettavasti emme pysty löytämään sijaintisi, ota intiimi käyttäjälle sijainti</string>
+                            <string name="dobnotify">syntymäpäivä Ilmoitus</string>
+                            <string name="todayfnd">Tänään Ystäväsi</string>
+                            <string name="iscelebrate">juhlii syntymäpäiväänsä tänään</string>
+                            <string name="bwish">Wish You paljon enemmän onnea päivä, Hyvää syntymäpäivää</string>
+                            <string name="lateremind">Muistuta myöhemmin</string>
+                            <string name="slcttime">valitse aika</string>
+                            <string name="monthdayyear">kuukausi-päivä-vuosi</string>
+                            <string name="srynomsg">sorry ei viestejä löytyy päiväys</string>
+                            <string name="rvdmsg">vastaanotettu viesti</string>
+                            <string name="sntmsg">Lähetä viesti</string>
+                            <string name="hastextme">on tekstin minulle</string>
+                             <string name="timeconver">ajat ja keskustelut ovat</string>
+                            <string name="sentmemsg">lähetti minulle viestin</string>
+                            <string name="ctabusivewords">sisältää joitakin loukkaava ilmaisu</string>
+                            <string name="hassentmsg">on lähetetty viesti</string>
+                            <string name="searchingfor">etsimistä</string>
+                            <string name="nomsgfoundfor">Ei viestejä löytynyt</string>
+                            <string name="nobankstat">Ei pankki-ilmoitukset</string>
+                            <string name="accbal">Tilin saldo on</string>
+                            <string name="nocreditstat">Ei Tiliotteisiin löytynyt opintopistettä</string>
+                            <string name="availbal">Saatavana tasapaino</string>
+                            <string name="foundon">löydettyn</string>
+                            
+                             <string name="tomorrow">huomenna</string>
+                                <string name="unabletoremove">pysty poistamaan viestin</string>
+                                <string name="sendlater">lähettää myöhemmin</string>
+                                <string name="addcttoschedulemsg">Lisää yhteystietoja lähettää aikataulun viesti</string>
+                                <string name="fgnotify">Fillgap Ilmoitus</string>
+                                <string name="share">Jaa</string>
+                                <string name="fetch">nouto</string>
+                                <string name="locate">Sijainti</string>
+                                <string name="userloclatt">Käyttäjä ei sijaitse leveyttä</string>
+                                <string name="andlat">ja pituutta</string>
+                                <string name="clickfetch">klikkaa Hae hakea tarkka sijainti</string>
+                                <string name="retrieve">hakuasennon</string>
+                                <string name="plswait">Ole hyvä! odottaa</string>
+                                <string name="loadingmsg">tulevat viestit</string>
+                                <string name="loadingg">Lataa</string>
+                                <string name="importingg">tuominen</string>
+                                <string name="loadbirthday">odota olemme lastaus synttärit</string>
+                                <string name="contactfb">yhteyttä FaceBook</string>
+                                <string name="this_week">tällä viikolla</string>
+                                <string name="this_month">tässä kuussa</string>
+                                <string name="sms">sms</string>
+                                <string name="call_cost">puhelun hinta</string>
+                                <string name="sms_cost">sms kustannukset</string>
+                                
+                                <string name="deleteselect">Poista valitut</string> 
+                                <string name="calls">puhelut</string>
+                             
+                                 <string name="yearly">vuosittain</string>
+            
+            
+            <string name="drawer_open">liukuvalikon avattu</string>
+    <string name="drawer_close">liukuvalikon suljettu</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+       
+        <item >Home</item>
+        <item >Alarms</item>
+        <item >Schedules</item>
+        <item >Queries</item>
+        <item>Reports</item>
+        <item >Settings</item>
+      
+    </string-array>
+    
+    
+  
+    <!-- call reports options -->
+     <string-array name="call_reports">
+     <item >päivittäin top 10 puhelua</item>
+      <item >viikoittain top 10 puhelua</item>
+       <item >puhelun lokin numero</item>
+        <item >viikoittain top _ puhelut</item>
+         <item >kuukausittain top _ puhelu analysaattori</item>
+          <item >välillä puhelun analysaattori</item>
+          </string-array>
+          
+     <!-- sms reports options -->
+      <string-array name="sms_reports">
+     <item >sms numero?</item>
+        </string-array>
+        
+      <!-- Reportsssssssssssssss -->
+      <string-array name="Reports_name">
+          <item>puhelu</item>
+          <item>SMS</item>
+      </string-array>
+      
+      <!-- Reports imagesss -->
+      <string-array name="reports_image">
+          <item >R.drawable.call</item>
+          <item >R.drawable.message_icon</item>
+      </string-array>
+     
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/hmsettings</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Tuote Ikoni</string>
+            
+     
+    
+     
+       <string name="menu_settings">asetukset</string>
+       <string name="menu_insert">Lisää ryhmä</string>
+        <string name="menu_deletegroup">Poista ryhmä</string>
+        <string name="menu_insert11">Lisää nimi</string>
+       <string name="menu_add_ctogroup">Lisää yhteystieto ryhmään</string>
+       <string name="hello">hei</string>
+       <string name="title_send_sms">Lähetä tekstiviesti</string>
+    
+       <string name="Groupname">ryhmän nimi</string>
+       <string name="confirm">Tallenna</string>
+     
+        
+       <string name="speak">puhu</string>
+       <string name="menu_delete">Poista</string>
+       <string name="menu_edit">Muokkaa</string>
+       <string name="menu_addcontacttogroup">Lisää yhteystieto ryhmään</string>
+       <string name="pref_task_title_key">Tehtävä Otsikko Key</string>
+       <string name="hnt_et_name">nimi</string>
+       <string name="hnt_et_mobile_phone">matkapuhelin</string>
+       <string name="hnt_et_home_phone">kotipuhelin</string>
+       <string name="hnt_et_home_email">henkilökohtaiset Sähköposti</string>
+       <string name="hnt_et_work_email">työ Sähköposti</string>
+       <string name="str_btn_add">Lisää yhteystieto</string>
+
+       <string name="inbox_messages">Saapuneet viestit</string>
+       <string name="contact_activity">Yhteydet</string>
+       <string name="group_activity">Ryhmät</string>
+       <string name="contact_add">Lisää yhteystieto</string>
+       <string name="tempelate_activity">aikataulu</string>
+       <string name="settings">asetukset</string>
+        <string name="your_alarm">Aseta Viesti Aikataulu</string>
+       <string name="group_contact_activity">Lisää yhteystietoja ryhmään</string>
+       <string name="group_add">Lisää ryhmä</string>
+       <string name="typemsg">Tyyppi viesti</string>
+        <string name="menu_edit_contact">Edit-Yhteystiedot</string>
+       <string name="app_id">268651109963113</string>
+       
+    <!--  settings screen strings -->
+       
+       <string name="auto_response_to_all_contacts">Automaattinen vastaus kaikkiin</string>
+       <string name="auto_response_to_fillgap_contacts">Automaattinen vastaus FillGap Yhteydet</string>
+       <string name="alarms">Hälytykset</string>
+       <string name="user_defined_alarms">Käyttäjän määrittelemät hälytykset</string>
+       <string name="default_alarms">suojatoimenpiteitä hälytykset</string>
+       <string name="schedules">AIKATAULUT</string>
+       <string name="scheduling">aikataulutus</string>
+       <string name="alarm_notification">Hälytysilmoitus-</string>
+       
+       <!-- facebook app id -->
+       <string name="app_id">268651109963113</string>
+       
+       
+       <!-- profile screen hints -->
+       <string name="relationemail">Kirjoita sähköpostilla - id</string>
+       
+       <!-- battery lowwww text -->
+       <string name="restart_txt">puhelin on käynnistetty uudelleen ja akun tila on:</string>
+       
+       <!-- alarmsssssssssssssssssssssssssss -->
+         <string name="weekly_top_call_analyzer">viikoittain top puhelu analysaattori</string>
+         <string name="monthly_top_call_analyzer">kuukausittain top puhelu analysaattori</string>
+         <string name="battery_low_analyzer">Akun alhainen analysaattori</string>
+         <string name="phone_restart_analyzer">Puhelimen uudelleenkäynnistys analysaattori</string>
+         
+         <!-- main screeen stringss -->
+         <string name="schedule_text">Saada yhteys oman rakkaansa Aikataulun Viestit</string>
+         <string name="no_schedule">Ei aikatauluja löytynyt</string>
+         
+         <!-- reports layout stringssssss -->
+         <string name="call_logs">puhelulokit</string>
+         <string name="cost">kustannukset -</string>
+         <string name="dash">----</string>
+         <string name="incoming">Saapuvat</string>
+         <string name="out_going">ulos menossa</string>
+         <string name="top_callers">top soittajat</string>
+         <string name="sms_logs">tekstiviestit lokit</string>
+         <string name="total">yhteensä</string>
+         <string name="recieved">saanut</string>
+         <string name="sent">Lähetetyt</string>
+         <string name="data_usage">tietojen käyttö</string>
+         <string name="top">Top</string>
+         
+         
+                  <!-- -Toast messages -->
+         <string name="startalarms">Hälytykset on aloitettu</string>
+          <string name="unablestartalarms">Ei voi käynnistää Hälytykset</string>
+          <string name="stopalarms">Hälytykset on pysäytetty</string>
+          <string name="unablestopalarms">Pysty lopettamaan Hälytykset</string>
+          <string name="emailnotify">Ennen set sähköposti-ilmoituksen Anna sähköpostiosoite ja salasana napsauttamalla Määritä Google-tilisi painiketta</string>
+          <string name="calerror">kalenteri virhe</string>
+          <string name="checkemail">Kun Tarkista sähköpostisi ja salasanasi, emme voi todentaa tämän valtakirjan</string>
+          <string name="correctemail">Ole hyvä! Anna oikea sähköpostiosoitteesi ja salasanasi</string>
+          <string name="dnttouch">Please dont kosketa näyttöä, kun sen lastaus</string>
+          <string name="checkinternet">Ole hyvä ja tarkista internetyhteys</string>
+          <string name="unabletodelete">pysty poistamaan viestin Yritä myöhemmin uudelleen</string>
+          <string name="nomsg">viesteissä</string>
+          <string name="selectmsg">valitse sentään yhden viestin poistaminen</string>
+          <string name="entertext">kirjoita teksti</string>
+          <string name="cancelalarm">hälytykset peruttu</string>
+          <string name="noalarm">hälytyksiä ei</string>
+          <string name="numberverify">Ole hyvä ja tarkista numero</string>
+          
+        
+          
+               <string name="unablelocate">unble paikantaa kohde</string> 
+
+                 <!---have to start toast here-->
+                  <string name="deletealarms">Hälytys on poistettu</string>
+                  <string name="deleteprealarms">sorry! poista ei ole käytettävissä ennalta hälytys</string>
+                  <string name="newnotification">Uusi Ilmoitus luotu</string>
+                  <string name="createalarm">Uusi hälytys on luotu</string>
+                  <string name="nullfreq">taajuus on nolla</string>
+                  
+                  
+                  <string name="unabledelete">Ei voi poistaa</string>
+                  <string name="nocontacts">No More Yhteydet....</string>
+                  <string name="alarmsremove">Hälytykset poistetaan</string>
+                  <string name="updatealarms">Hälytys on päivitetty..</string>
+                  <string name="restartalarms">Hälytys on käynnistetty uudelleen..</string>
+                  
+                  <string name="interneton">internetissä</string>
+                  <string name="internetoff">internet pois</string>
+                  <string name="duplicateon">päällekkäisiä edellyttävät Internetissä</string>
+                  <string name="duplicateoff">päällekkäisiä puhelu internet pois</string>
+                  
+                   <string name="successfullmsg">Viestin lähettäminen onnistui</string>
+                    <string name="ctaddsuccess">kontaktit lisätty onnistuneesti</string>
+                    <string name="unablectadd">voi lisätä kontakteja</string>
+                    <string name="nogroups">Ei ryhmät ovat olemassa</string>
+                    <string name="unabletoprocess">Pysty käsittelemään juuri nyt</string>
+                    <string name="feelingshare">Tunne on jaettu onnistuneesti</string>
+                    <string name="unablefetchloc">Anteeksi pysty hakemaan sijainnin</string>
+                    <string name="userloc">Käyttäjän sijaitsee</string>
+                    <string name="groupsdeletescucess">Ryhmä poistettu onnistuneesti</string>
+                    <string name="groupcreate">Ryhmä on luotu</string>
+                    <string name="unableloadclick">Anteeksi! Lataaminen ei onnistu Klikkaa tästä yrittää uudelleen jonkin aikaa</string>
+                    <string name="fgnotifybirthday">FillGap ladattu ystävien syntymäpäivät ja ilmoittaa erityisistä päivä</string>
+         
+         
+         
+</resources>

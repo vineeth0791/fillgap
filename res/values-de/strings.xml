@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Fillgap</string>
+    <string name="hello_world">Hallo Welt!</string>
+    <string name="action_settings">Einstellungen</string>
+      <string name="desc">hinzufügen</string>
+       <string name="some_hint">Suche</string>
+         <string name="some_hint1">Kundennummer</string>
+          <string name="some_hint2">Kundenname</string>
+            <string name="some_hint3">Allgemein</string>
+            <string name="strAll">alle</string>
+            <string name="queries">Anfragen</string>
+             <string name="configureaccount">Konfigurieren Sie Ihre Gmail/Yahoo-Konto</string>
+             
+             <string name="update">Update</string>
+             <string name="showpwd">Kennwort anzeigen</string>
+             <string name="enterpwd">geben Sie das Passwort</string>
+             <string name="entermail">Geben Sie E-Mail (Google / Yahoo)</string>
+             <string name="maildialogbox">Geben Sie Google / Yahoo E-Mail und pwd auf das Versenden von Mails starten:</string>
+             <string name="info">Informationen</string>
+             <string name="impfb">Sind Sie sicher, dass Sie Freunde Geburtstage aus Facebook importieren. Klicken Sie auf OK, um fortzufahren</string>
+             <string name="schedule_messages">Fahrplanmeldung</string>
+             <string name="phno">Telefonnummern:</string>
+              <string name="content">Inhalt:</string>
+              <string name="enternoemail">Geben Sie die Telefonnummer / E-Mail</string>
+              <string name="hint4">Split Nummer / E-Mail mit Semikolon</string>
+              <string name="attachquote">Bringen Zitat</string>
+              <string name="loadfb">Klicken Sie, um FB Geburtstage laden</string>
+              <string name="entername">geben Sie den Namen</string>
+              <string name="enternum">Nummer eingeben</string>
+              <string name="entergname">geben Gruppenname</string>
+              <string name="autoreply">Geben Sie die automatische Antwort-Nachricht</string>
+              <string name="hint5">Geben Sie Telefonnummer</string>
+              <string name="from">aus</string>
+              <string name="to">zu</string>
+              <string name="birthday">Geburtstag</string>
+              <string name="anniv">Jubiläum</string>
+              <string name="manualtype">will manuell eingeben hier um in den</string>
+              <string name="textlimit">Text Limit ist über</string>
+              <string name="select">wählen</string>
+              <string name="setfreq">eingestellten Frequenz</string>
+              <string name="informto">zu informieren:</string>
+              <string name="times">mal</string>
+              <string name="call">Anruf</string>
+              <string name="deleteall">alle löschen</string>
+               <string name="emotions">Emotionen-Sharing-</string>
+                <string name="close">Schließen</string>
+                <string name="tempelate">Tempelate:</string>
+                <string name="entercontfillgap">Geben Sie Telefonnummer, um die Lücke zu füllen</string>
+                 <string name="entermsg">geben Sie Nachricht</string>
+                  <string name="ask">fragen?</string>
+                  <string name="alarmtime">Alarmzeit</string>
+                  
+                  
+                   
+                   
+                   
+                <string name="safe">sichern</string>
+                <string name="namecallhistory">Geben Sie den Namen, den Geschichte nennen Sie wissen wollen</string> 
+                <string name="numbercallhistory">Geben Sie die Nummer, den Geschichte nennen Sie wissen wollen</string> 
+                <string name="nummsg">Nummer eingeben, deren Nachrichten Sie wissen wollen</string>
+                <string name="namemsg">Geben Sie den Namen, deren Nachrichten Sie wissen wollen</string>
+                <string name="existrecp">Stellen Sie sicher, receipient auch einen bestehenden Benutzer von fillgap vor dem Senden</string>
+                <string name="send">senden</string>
+                 <string name="cancel">stornieren</string>
+                  <string name="selectdate">Datum wählen</string>
+                  <string name="set">setzen</string>
+                  <string name="namecalllog">Kontaktnamen eingeben, dessen calllog Sie wissen wollen</string>
+                  <string name="numcalllog">Geben Sie Telefonnummer, deren calllog Sie wissen wollen</string>
+                  
+                  
+                   
+                   <string name="setfreqgreater">eingestellten Frequenz größer als 0</string>
+              <string name="everydaynotify">Benachrichtigt Every Day</string>
+              <string name="everynotify">Benachrichtigt bei jedem</string>
+              <string name="date">Tage</string>
+              <string name="stopnotify">Benachrichtigung gestoppt</string>
+              <string name="enternamenum">Geben Sie Kontaktnamen / Nummer</string>
+              <string name="createnew">Neu erstellen</string>
+              <string name="selectcontact">Bitte wählen Kontakt</string>
+              <string name="ifdidntcall">Wenn Sie nicht anrufen</string>
+              <string name="daysnotification">Tagen Sie werden benachrichtigt</string>
+              <string name="forwarddailycalls">Forwad täglichen Top-10 zu calllogs</string>
+              <string name="forwardweeklycalls">Forwad Top 10 calllogs dieser Woche</string>
+              <string name="forwardtop">forwad oben</string>
+              <string name="monthcalllogs">calllogs des Monats</string>
+              <string name="anybodycalls">Wenn jemand Sie anruft mehr als</string> 
+              <string name="timesaday">mals täglich zu informieren, die den ausgewählten Kontakten</string>
+              <string name="gotmorecalls">Wenn Sie bekam Anrufe mehr als</string>
+               <string name="timesadaywthunknowncalls">mals täglich von einer unbekannten Nummer zu informieren, um den ausgewählten Kontakten</string>
+                <string name="gotmore">Wenn du mehr als</string>
+                 <string name="unknownmsg">Nachrichten pro Tag von einer unbekannten Nummer zu informieren, um den ausgewählten Kontakten</string>
+                <string name="timesaweek">mal ein in einer Woche zu informieren, um den ausgewählten Kontakten</string>
+                <string name="enternumgreater">Geben Sie eine Zahl größer als Null...</string>
+                 <string name="entercontactss">geben Sie Kontakte</string> 
+                 <string name="splitmulcontacts">Split mehrere Kontakte mit einem Semikolon</string>
+                 <string name="inday">an einem Tag zu informieren</string>
+                 <string name="timesadayinform">Mal am Tag zu informieren,</string>
+                  <string name="timesadayinformunknownnum">mals täglich von einer unbekannten Nummer informieren</string>
+                   <string name="abusivemsg"> If your message contains any abusive words inform to</string>
+                   <string name="msginformto">Nachrichten pro Tag von einer unbekannten Nummer informieren</string>
+                    <string name="weektimesinformto">mal ein in einer Woche zu informieren,</string> 
+                     <string name="notifiescalllogto">Benachrichtigt über Ihre calllogs zu</string> 
+                     <string name="intimatecnum">Geben Sie Telefonnummer, um sie über Anrufprotokolle deuten</string>
+                     <string name="forwardeachmsg">Leiten Sie jede eingehende Nachricht Details zu</string>
+                     <string name="forwardeachincalls">Bei jedem eingehenden Anruf weiterzuleiten, um Details</string> 
+                     <string name="forwardeachoutcalls">Leiten Sie jede ausgehende Anrufdetails zu</string>
+                     <string name="forwardeachmsdcalls">Leiten Sie je Anruf in Abwesenheit Details zu</string>
+                     <string name="forwardbankmoney">Vorwärts Geld Aussagen zurückziehen</string> 
+                     <string name="informbatterystatus">Informieren Sie sich über Ihre Batterie-Status an</string>
+                     <string name="wnbattery"> bei schwacher Batterie</string>
+                     <string name="mobrestarts">wenn Ihr Handy neu gestartet</string> 
+                     <string name="ifdcall">Wenn der Anruf von</string> 
+                     <string name="notanswer">hat dann nicht beantwortet worden informieren mit einer automatischen Antwort text</string>
+                     
+                     <string name="conversation">Gespräche</string> 
+                    <string name="areyoursure">Sind Sie sicher, dass Sie entfernen</string> 
+                    <string name="confirmation">Bestätigung</string>
+                    <string name="contactremove">Kontakt wird entfernt</string>
+                    <string name="adding">Hinzufügen......</string>
+                    <string name="yes">ja</string>
+                    <string name="no">nicht</string>
+                    <string name="remalarm">Wollen Sie Alarme mit Assoziierte entfernen wollen</string>
+                     <string name="stpalarm">Stop Alarm</string>
+                     <string name="sttalarm">starten Alarm</string>
+                     <string name="forwardcallandmsg">Jeder Anruf weiterleiten und Mitteilungsdetails, um</string>
+                     
+                     
+                      <string name="today">heute</string>
+                      <string name="week">wöchentlich</string>
+                      <string name="month">monatlich</string>
+                      <string name="addsafeguards">Schutzmaßnahmen hinzufügen</string>
+                      <string name="noschdmsgs">Keine gemeinsamen Spiel Nachrichten für heute</string>
+                      <string name="todaynoalarm">Keine Warnungen für heute</string>
+                      <string name="querytxt">Abfragen:-Alle abfragen können Sie Ihre Absicherung, gehören</string>
+                      <string name="querytxt1">Abfragen: -Excludes Ihre Absicherung, bleibt alles können Sie abfragen</string>
+                      <string name="querytxt2">Abfragen: -Ihr Schutz nur Abfrage, die Sie</string>
+                      <string name="querytxt3">Abfragen: -No kann Sie abfragen</string>
+                      <string name="notifyenable">Notification is enabled</string>
+                      <string name="notifydisable">Benachrichtigung deaktiviert ist</string>
+                      <string name="nonotify">Keine Benachrichtigung gefunden</string>
+                      <string name="emailsmsenable">E-Mail und SMS sind beide aktiviert</string>
+                      <string name="setmail1">SMS und E-Mail aktiviert werden; Bitte konfigurieren Sie Ihr Konto</string>
+                      <string name="setmail2">E-Mail aktiviert ist, sms ist deaktiviert</string>
+                      <string name="setmail3">E-Mail aktiviert ist, sms deaktiviert ist und konfigurieren Sie bitte Ihr Konto zu</string>
+                      <string name="setmail4">SMS ist aktiviert, E-Mail ist deaktiviert</string>
+                      <string name="setmail5">SMS ist aktiviert, E-Mail deaktiviert und konfigurieren Sie bitte Ihr Konto zu</string>
+                      <string name="setmail6">E-Mail und SMS beide deaktiviert sind</string>
+                      <string name="setmail7">E-Mail und SMS sind beide deaktiviert und konfigurieren Sie bitte Ihr Konto zu</string>
+                      <string name="setmail8">Keine E-Mail und Passwort gefunden</string>
+                      <string name="setalarm1">Ihr Safeguard und benutzerdefinierte Benachrichtigungen aktiviert sind</string>
+                      <string name="setalarm2">Ihr Safeguard Alarm wird aktiviert; Benutzerdefinierte Alarm wird deaktiviert</string>
+                      <string name="setalarm3">Benutzerdefinierte Alarm wird aktiviert, Safeguard Alarm deaktiviert ist</string>
+                      <string name="setalarm4">Beide Benutzerdefiniert und Safeguard Alarme sind deaktiviert</string>
+                      
+                        <string name="swiperight">Streichen Sie nach rechts, um goto vorherigen Datum</string>
+                       <string name="swipeleft">Streichen Sie nach links, um zum nächsten Datum zu gelangen</string>
+                       <string name="noreports">keine Berichte</string>
+                       <string name="doubleclick">Doppelklicken Sie auf, um die Antwort zu senden</string>
+                       <string name="unabletosend">Nicht in der Lage, die Nachricht zu senden</string>
+                       <string name="smssend">SMS geschickt</string>
+                       <string name="genericfail">generische Versagen</string>
+                       <string name="noservice">kein Service</string>
+                       <string name="nullpdu">Null PDU</string>
+                       <string name="radiooff">Radio aus</string> 
+                       
+                        <string name="foundat">gefunden</string>
+                          <string name="youdidntcall">Sie nicht zu nennen</string>
+                          <string name="forpast">für das letzte</string>
+                          <string name="youhadcall">Sie berufen hatte</string>
+                          <string name="on">auf</string>
+                          <string name="fgprovides">FillGap eine Benachrichtigung über Ihre Anrufprotokolle intim, zu bekommen starten Klicken Sie auf Bearbeiten</string>
+                          <string name="nocontfound">keine Kontakte mit Namen gefunden</string>
+                          <string name="contfound">Kontakte gefunden, bitte überprüfen..</string>
+                          <string name="wantreadcalllogs">möchte Ihre Anrufprotokolle von lesen</string>
+                          <string name="wantcalllog">will Anrufprotokolle von</string>
+                          <string name="noinfofound">Keine Informationen für gefunden</string>
+                          <string name="wantcalllogbtwn">will Anrufprotokolle zwischen</string>
+                          <string name="userspent">Benutzer hat verbracht</string>
+                          <string name="seconcall">Sekunden auf Telefonanrufe</string>
+                          <string name="wantsmsg">will Meldungen des Tages wissen </string>
+                          <string name="nomsgfoundnum">Keine Nachrichten für die Nummer gefunden</string>
+                          <string name="wantmsg">will Meldungen</string>
+                          <string name="wantbtrystat">möchte Ihre Batterie-Status kennen</string>
+                          <string name="wantknwdebit">möchte Ihre Lastschriften wissen</string>
+                          <string name="wantknwcredit">will über Ihre Kredite wissen</string>
+                          <string name="wantknwappinstall">will über die installierten Apps auf Ihrem Mobil wissen</string>
+                          <string name="wantmsdcalllist">will die Liste der verpassten Anrufe</string>
+                          <string name="andname">und Name</string>
+                          <string name="servicenoton">Dienste oder nicht</string>
+                          <string name="fillgapreminder">FillGap Erinnerung</string>
+                          <string name="havefillgapreminder">Sie haben von Erinnerung FillGap.</string>
+                          <string name="todayyour">Heute Ihre</string>
+                          <string name="frndsbirthday">Freunde feiern ihren Geburtstag</string>
+                          
+                          
+                          
+                          <string name="rcvdmsdcall">Empfangenen Anruf in Abwesenheit von</string>
+                            <string name="at">bei</string>
+                            <string name="rcvdcall">Von Anruf erhalten</string>
+                            <string name="norcvdcall">Keine Empfangene Anrufe gefunden</string>
+                            <string name="calledto">genannt</string>
+                            <string name="hascalled">wurde auf genannte</string>
+                            <string name="spokefor">und sprach für</string>
+                            <string name="secon">Sekunden</string>
+                            <string name="hasgvnmsdcall">Sie hat einen Anruf in Abwesenheit zu bestimmten</string>
+                            <string name="hascalledme">hat mich angerufen</string>
+                            <string name="timesinweek">mal in dieser Woche</string>
+                            <string name="wrongquery">falsch Abfrage sollte Datumsformat wie sein</string>
+                            <string name="durationis">Die Dauer ist</string>
+                            <string name="gotmsdcall">wurde von verpassten Anruf</string>
+                            <string name="dateformat">Datumsformat Ausnahme: Datumsformat sein sollte</string>
+                            <string name="remainbattery">Rest Batterie</string>
+                            <string name="batterycharging">Akku wird geladen</string>
+                            <string name="batterynotcharging">Batterie wird nicht geladen</string>
+                            <string name="silentmobile">Mobile ist im Silent-Modus</string>
+                            <string name="vibratemobile">Mobile ist in Vibrationsmodus</string>
+                            <string name="generalmobile">Mobile ist im allgemeinen Modus</string>
+                            <string name="noapps">Keine Apps gefunden</string>
+                            <string name="sorryunabletolocate">Entschuldigung nicht finden kann</string>
+                            <string name="addressfound">Adresse gefunden</string>
+                            <string name="locfound">Standort gefunden</string>
+                            <string name="shownum">Nummern anzeigen</string>
+                            <string name="error">Fehler</string>
+                            <string name="smsto">SMS an</string>
+                            <string name="back">zurück</string>
+                            <string name="callognotify">Call Log Mitteilung</string>
+                            <string name="hihow">Hallo, wie geht es dir</string>
+                            <string name="sendtoall">Senden an Alle</string>
+                            <string name="norecordsfound">keine Datensätze gefunden</string>
+                            <string name="listout">Liste alle Zahlen,</string>
+                            <string name="nonumfound">Keine Zahlen gefunden</string>
+                            <string name="next">nächste</string>
+                            <string name="nocontfound">Keine Kontakte gefunden</string>
+                            <string name="norecordsfoundwthdate">keine Datensätze für Datum gefunden</string>
+                            <string name="nocallsfoundwthdate">keine Anrufe für Datum gefunden</string>
+                            <string name="totalcalldur">Gesamtanrufdauer für Datum gefunden</string>
+                            <string name="selaction">Aktion auswählen</string>
+                            <string name="sryunabletofind">Traurig sind wir nicht in der Lage, Ihren Standort zu finden, intime Benutzer über Lage</string>
+                            <string name="dobnotify">Geburtstag Mitteilung</string>
+                            <string name="todayfnd">Heute Ihren Freund</string>
+                            <string name="iscelebrate">feiert heute Geburtstag</string>
+                            <string name="bwish">Möchten Sie noch viele glückliche Rückkehr des Tages, Happy Birthday</string>
+                            <string name="lateremind">Später erinnern</string>
+                            <string name="slcttime">wählen Sie Zeit</string>
+                            <string name="monthdayyear">Monat-Tag-Jahr</string>
+                            <string name="srynomsg">Es tut uns leid keine Nachrichten im Zeitpunkt gefunden</string>
+                            <string name="rvdmsg">empfangenen Nachricht</string>
+                            <string name="sntmsg">Nachricht senden</string>
+                            <string name="hastextme">hat Text mich</string>
+                             <string name="timeconver">Zeiten und Gespräche sind</string>
+                            <string name="sentmemsg">senden Sie mir die Nachricht</string>
+                            <string name="ctabusivewords">enthält einige beleidigende Worte</string>
+                            <string name="hassentmsg">hat gesendeten Nachricht</string>
+                            <string name="searchingfor">Suche nach</string>
+                            <string name="nomsgfoundfor">Keine Nachrichten gefunden</string>
+                            <string name="nobankstat">Keine Kontoauszüge gefunden</string>
+                            <string name="accbal">Kontostand ist</string>
+                            <string name="nocreditstat">Keine Kontoauszüge für Kredite gefunden</string>
+                            <string name="availbal">Erhältlich in Balance</string>
+                            <string name="foundon">gefunden auf</string>
+                            
+                              <string name="tomorrow">morgen</string>
+                                <string name="unabletoremove">nicht in der Lage, die Nachricht zu entfernen</string>
+                                <string name="sendlater">später senden</string>
+                                <string name="addcttoschedulemsg">Hinzufügen von Kontakten zur Fahrplanmeldung senden</string>
+                                <string name="fgnotify">Fillgap Mitteilung</string>
+                                <string name="share">Aktie</string>
+                                <string name="fetch">holen</string>
+                                <string name="locate">Lage</string>
+                                <string name="userloclatt">Benutzer hat auf der Breite</string>
+                                <string name="andlat">und Länge</string>
+                                <string name="clickfetch">klicken Sie auf Fetch, um den genauen Standort abrufen</string>
+                                <string name="retrieve">abrufen</string>
+                                <string name="plswait">Bitte! warten</string>
+                                <string name="loadingmsg">Ladenachrichten</string>
+                                <string name="this_week">diese Woche</string>
+                                <string name="loadingg">Loading</string>
+                                <string name="importingg">Einfuhr</string>
+                                <string name="loadbirthday">bitte warten wir das Laden der Geburtstage</string>
+                                <string name="contactfb">Kontaktieren Facebook</string>
+                                <string name="this_month">Dieser Monat</string>
+                                <string name="this_week">diese Woche</string>
+                                <string name="sms">sms</string>
+                                <string name="call_cost">Anrufkosten</string>
+                                <string name="sms_cost">sms Kosten</string>
+                                
+                                <string name="deleteselect">Löschen Sie ausgewählte</string> 
+                                
+                                  <string name="calls">Anrufe</string>
+                           
+                                 <string name="yearly">jährlich</string>
+            
+            
+            <string name="drawer_open">Slider-Menü geöffnet</string>
+    <string name="drawer_close">Slider-Menü geschlossen</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+       
+        <item >Home</item>
+        <item >Alarms</item>
+        <item >Schedules</item>
+        <item >Queries</item>
+        <item>Reports</item>
+        <item >Settings</item>
+      
+    </string-array>
+    
+    
+  
+    <!-- call reports options -->
+     <string-array name="call_reports">
+     <item >Top 10 Anrufe täglich</item>
+      <item >Die wöchentliche Top 10 Anrufe</item>
+       <item >Anrufprotokoll Nummer</item>
+        <item >Wöchentliche Top _ Anrufe</item>
+         <item >monatlich oben Anruf Analysator</item>
+          <item >zwischen Anruf Analyzer</item>
+          </string-array>
+          
+     <!-- sms reports options -->
+      <string-array name="sms_reports">
+     <item >smses der Anzahl?</item>
+        </string-array>
+        
+      <!-- Reportsssssssssssssss -->
+      <string-array name="Reports_name">
+          <item>Anruf</item>
+          <item>SMS</item>
+      </string-array>
+      
+      <!-- Reports imagesss -->
+      <string-array name="reports_image">
+          <item >R.drawable.call</item>
+          <item >R.drawable.message_icon</item>
+      </string-array>
+     
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/hmsettings</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Artikel-Symbol</string>
+            
+     
+    
+     
+       <string name="menu_settings">Einstellungen</string>
+       <string name="menu_insert">Gruppe hinzufügen</string>
+        <string name="menu_deletegroup">Gruppe löschen</string>
+        <string name="menu_insert11">Kontakt hinzufügen</string>
+       <string name="menu_add_ctogroup">Kontakt zu Gruppe hinzufügen</string>
+       <string name="hello">hallo</string>
+       <string name="title_send_sms">senden Sie eine SMS</string>
+    
+       <string name="Groupname">Gruppenname</string>
+       <string name="confirm">Speichern</string>
+     
+        
+       <string name="speak">sprechen</string>
+       <string name="menu_delete">entfernen</string>
+       <string name="menu_edit">Bearbeiten</string>
+       <string name="menu_addcontacttogroup">Kontakt zu Gruppe hinzufügen</string>
+       <string name="pref_task_title_key">Aufgabe Titel Key</string>
+       <string name="hnt_et_name">Name</string>
+       <string name="hnt_et_mobile_phone">Handy</string>
+       <string name="hnt_et_home_phone">Home Phone</string>
+       <string name="hnt_et_home_email">persönliche E-Mail</string>
+       <string name="hnt_et_work_email">Arbeit per E-Mail</string>
+       <string name="str_btn_add">Kontakt hinzufügen</string>
+
+       <string name="inbox_messages">Nachrichten im Posteingang</string>
+       <string name="contact_activity">Kontakte</string>
+       <string name="group_activity">Gruppen</string>
+       <string name="contact_add">Kontakt hinzufügen</string>
+       <string name="tempelate_activity">Zeitplan</string>
+       <string name="settings">Einstellungen</string>
+        <string name="your_alarm">Satz Nachricht Zeitplan</string>
+       <string name="group_contact_activity">Hinzufügen von Kontakten zur Gruppe</string>
+       <string name="group_add">Gruppe hinzufügen</string>
+       <string name="typemsg">Nachricht vom Typ</string>
+        <string name="menu_edit_contact">Bearbeiten - Kontakt</string>
+       <string name="app_id">268651109963113</string>
+       
+    <!--  settings screen strings -->
+       
+       <string name="auto_response_to_all_contacts">automatische Antwort an alle</string>
+       <string name="auto_response_to_fillgap_contacts">auto response to FillGap Contacts</string>
+       <string name="alarms">Alarm</string>
+       <string name="user_defined_alarms">Benutzer definierten Alarme</string>
+       <string name="default_alarms">Sichern Sie Alarme</string>
+       <string name="schedules">SPIELPLÄNE</string>
+       <string name="scheduling">Ablaufplanung</string>
+       <string name="alarm_notification">Alarmbenachrichtigung</string>
+       
+       <!-- facebook app id -->
+       <string name="app_id">268651109963113</string>
+       
+       
+       <!-- profile screen hints -->
+       <string name="relationemail">Geben Sie E-Mail-ID</string>
+       
+       <!-- battery lowwww text -->
+       <string name="restart_txt">Telefon neu gestartet wurde und Batteriestatus:</string>
+       
+       <!-- alarmsssssssssssssssssssssssssss -->
+         <string name="weekly_top_call_analyzer">wöchentlich top Anruf Analysator</string>
+         <string name="monthly_top_call_analyzer">monatlich top Anruf Analysator</string>
+         <string name="battery_low_analyzer">Batterie niedrig Analysator</string>
+         <string name="phone_restart_analyzer">Telefon Neustart Analysator</string>
+         
+         <!-- main screeen stringss -->
+         <string name="schedule_text">Mit Ihren Lieben nach Zeitplan Messaging verbunden zu werden</string>
+         <string name="no_schedule">Keine Termine gefunden</string>
+         
+         <!-- reports layout stringssssss -->
+         <string name="call_logs">Anrufprotokolle</string>
+         <string name="cost">Kosten -</string>
+         <string name="dash">----</string>
+         <string name="incoming">eingehend</string>
+         <string name="out_going">Ausgehen</string>
+         <string name="top_callers">Top Anrufer</string>
+         <string name="sms_logs">SMS-Protokolle</string>
+         <string name="total">gesamt</string>
+         <string name="recieved">empfangen</string>
+         <string name="sent">gesendet</string>
+         <string name="data_usage">Datennutzung</string>
+         <string name="top">Top</string>
+         
+         
+           <!-- -Toast messages -->
+         <string name="startalarms">Alarme gestartet wurde</string>
+          <string name="unablestartalarms">Nicht in der Lage, um die Alarme zu starten</string>
+          <string name="stopalarms">Alarme wurde angehalten</string>
+          <string name="unablestopalarms">Nicht in der Lage, um die Alarme zu stoppen</string>
+          <string name="emailnotify">Bevor Set-Mail-Benachrichtigung geben Sie Ihre E-Mail und Passwort, indem Sie auf Konfigurieren Sie Ihr Google-Konto-Taste</string>
+          <string name="calerror">Kalender-Fehler</string>
+          <string name="checkemail">Sobald Ihre E-Mail und Passwort überprüfen, wir sind nicht in der Lage, mit dieser Anmeldeinformationen zu authentifizieren</string>
+          <string name="correctemail">Bitte! Geben Sie korrekte Mail und Passwort</string>
+          <string name="dnttouch">Bitte nicht berühren Sie den Bildschirm, während seine Lade</string>
+          <string name="checkinternet">Bitte überprüfen Sie Ihre Internetverbindung</string>
+          <string name="unabletodelete">nicht in der Lage, die Nachricht zu löschen plz versuchen Sie es später erneut</string>
+          <string name="nomsg">in Nachrichten</string>
+          <string name="selectmsg">bitte wählen atleast eine Nachricht zu löschen</string>
+          <string name="entertext">Bitte geben Sie den Text</string>
+          <string name="cancelalarm">Alarme gelöscht</string>
+          <string name="noalarm">keine Alarme</string>
+          <string name="numberverify">Bitte prüfen Sie Ihre Nummer</string>
+          <string name="unablelocate">unble, um das Element zu lokalisieren</string> 
+          
+          
+           <string name="deletealarms">Alarm gelöscht wurde</string>
+                  <string name="deleteprealarms">Entschuldigung! Löschen ist nicht für vordefinierte Alarm verfügbar</string>
+                  <string name="newnotification">Neue Benachrichtigung erstellt</string>
+                  <string name="createalarm">Neuer Alarm erstellt wurde</string>
+                  <string name="nullfreq">Frequenz null</string>
+                  
+                  
+                  <string name="unabledelete">Kann nicht gelöscht werden</string>
+                  <string name="nocontacts">Nicht mehr Kontakte....</string>
+                  <string name="alarmsremove">Alarme werden entfernt</string>
+                  <string name="updatealarms">Alarm wurde aktualisiert..</string>
+                  <string name="restartalarms">Alarm wurde neu gestartet..</string>
+                  
+                  <string name="interneton">Internet auf</string>
+                  <string name="internetoff">Internet aus</string>
+                  <string name="duplicateon">duplizieren Anruf für Internet auf</string>
+                  <string name="duplicateoff">duplizieren Anruf für Internet-off</string>
+                  
+                   <string name="successfullmsg">Nachricht erfolgreich gesendet</string>
+                    <string name="ctaddsuccess">Kontakte erfolgreich hinzugefügt</string>
+                    <string name="unablectadd">nicht in der Lage, um die Kontakte hinzufügen</string>
+                    <string name="nogroups">Keine Gruppen existieren</string>
+                    <string name="unabletoprocess">Nicht in der Lage sich jetzt Prozess</string>
+                    <string name="feelingshare">Gefühl hat erfolgreich freigegeben wurde</string>
+                    <string name="unablefetchloc">Entschuldigung nicht in der Lage, um den Ort zu holen</string>
+                    <string name="userloc">Benutzer befindet sich unter</string>
+                    <string name="groupsdeletescucess">Gruppe erfolgreich gelöscht</string>
+                    <string name="groupcreate">Gruppe erstellt</string>
+                 
+                      <string name="unableloadclick"> Es tut uns leid! Unfähig, die auf Laden Sie hier, um einige Zeit wieder versuchen</string>
+                       <string name="fgnotifybirthday">FillGap geladen deinen Freunden Geburtstage und wird am jeweiligen Tag zu benachrichtigen</string>
+         
+</resources>

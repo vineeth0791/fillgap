@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout1123"
+        android:layout_width="fill_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="2.0dip"
+        android:layout_weight="4.60"
+         android:background="#FDFDFD"
+        android:orientation="vertical"
+        android:padding="2.0dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="102dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:maxLines="3" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/text11"
+                android:layout_alignBottom="@+id/text11"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="60dp"
+                android:text="------"
+                android:textSize="10sp" />
+
+            <ImageButton
+                android:id="@+id/readmore1"
+                android:layout_width="50.0dip"
+                android:layout_height="28.0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="16dp"
+                android:visibility="invisible"
+                 />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/text11"
+                android:layout_toRightOf="@+id/frequencynote"
+                android:singleLine="true"
+                android:text="-----"
+                android:textColor="#318CE7"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/r"
+                android:layout_width="wrap_content"
+                android:layout_height="28.0dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/readmore1"
+               
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#89CFF0"
+               
+                
+                 />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="240.0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/r"
+                android:layout_alignBottom="@+id/r"
+                android:layout_alignParentLeft="true"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="-------"
+                android:textColor="#000000"
+                android:textSize="11sp"
+                 />
+
+            <TextView
+                android:id="@+id/frequencynote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/text11"
+                android:layout_alignParentLeft="true"
+                android:ems="10"
+                android:text="@string/alarmtime"
+                android:textColor="@color/tabDark" />
+
+            
+            <Button
+                android:id="@+id/alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/time"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:text="OFF" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTitleBelow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:padding="2.0dip"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

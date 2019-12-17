@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Fillgap</string>
+    <string name="hello_world">Hallo wereld!</string>
+    <string name="action_settings">Instellingen</string>
+      <string name="desc">toevoegen</string>
+       <string name="some_hint">zoeken</string>
+         <string name="some_hint1">klantnummer</string>
+          <string name="some_hint2">Naam van de klant</string>
+            <string name="some_hint3">Algemeen</string>
+            <string name="strAll">Alle</string>
+            <string name="queries">Queries</string>
+            <string name="configureaccount">Je gmail/yahoo account in te stellen</string>
+            
+             <string name="update">Update</string>
+             <string name="showpwd">Wachtwoord weergeven</string>
+             <string name="enterpwd">voer het wachtwoord</string>
+             <string name="entermail">Voer Mail (Google / Yahoo)</string>
+             <string name="maildialogbox">Voer Google / Yahoo e-mail en pwd te beginnen met het verzenden Mails:</string>
+             <string name="info">informatie</string>
+             <string name="impfb">Weet je zeker aan vrienden verjaardagen importeren uit facebook. Klik op OK om verder te gaan</string>
+             <string name="schedule_messages">schema bericht</string>
+             <string name="phno">telefoonnummers:</string>
+              <string name="content">inhoud:</string>
+              <string name="enternoemail">Voer telefoonnummer / e-mail</string>
+              <string name="hint4">Split nummer / e-mail met een puntkomma</string>
+              <string name="attachquote">Bevestig Quote</string>
+              <string name="loadfb">Klik op Load FB Verjaardagen</string>
+              <string name="entername">voer de naam</string>
+              <string name="enternum">voer het nummer</string>
+              <string name="entergname">voeren groepsnaam</string>
+              <string name="autoreply">Voer automatisch antwoord bericht</string>
+              <string name="hint5">Voer telefoonnummer</string>
+              <string name="from">van</string>
+              <string name="to">aan</string>
+              <string name="birthday">Verjaardag</string>
+              <string name="anniv">verjaardag</string>
+              <string name="manualtype">wil vragen om handmatig te typen hier</string>
+              <string name="textlimit">Tekst Limit is voorbij</string>
+              <string name="select">Selecteer</string>
+              <string name="setfreq">ingestelde frequentie</string>
+              <string name="informto">Informeer naar:</string>
+              <string name="times">tijden</string>
+              <string name="call">oproep</string>
+              <string name="deleteall">Verwijder alle</string>
+               <string name="emotions">Emoties-sharing</string>
+                <string name="close">Sluiten</string>
+                <string name="tempelate">Tempelate:</string>
+                <string name="entercontfillgap">Voer contactnummer om het gat te vullen</string>
+                 <string name="entermsg">Invoer bericht</string>
+                  <string name="ask">Vraag?</string>
+                  <string name="alarmtime">Alarm Time</string>
+                  
+                  <string name="safe">Beschermen</string>
+                <string name="namecallhistory">Voer de naam, die de geschiedenis bellen u wilt weten</string> 
+                <string name="numbercallhistory">Voer het nummer in, die de geschiedenis bellen u wilt weten</string> 
+                <string name="nummsg">Voer het nummer in, waarvan u de berichten wilt weten</string>
+                <string name="namemsg">Voer de naam, waarvan u de berichten wilt weten</string>
+                <string name="existrecp">Zorg ervoor, ontvanger ook een bestaande gebruiker van fill kloof voordat u</string>
+                <string name="send">Verstuur</string>
+                 <string name="cancel">Annuleren</string>
+                  <string name="selectdate">selecteer datum</string>
+                  <string name="set">Stel</string>
+                  <string name="namecalllog">Voer naam van de contactpersoon, wiens CallLog u wilt weten</string>
+                  <string name="numcalllog">Voer telefoonnummer, wiens CallLog u wilt weten</string>
+                  
+                  
+                   <string name="setfreqgreater">ingestelde frequentie groter dan 0</string>
+              <string name="everydaynotify">Meldt elke dag</string>
+              <string name="everynotify">Waarschuwt bij iedere</string>
+              <string name="date">dagen</string>
+              <string name="stopnotify">kennisgeving gestopt</string>
+              <string name="enternamenum">Voer contact naam / nummer</string>
+              <string name="createnew">Maak nieuw</string>
+              <string name="selectcontact">selecteert u contact</string>
+              <string name="ifdidntcall">Als je niet te bellen</string>
+              <string name="daysnotification">dagen krijg je een notificatie</string>
+              <string name="forwarddailycalls">Forward dagelijkse top 10 oproeplogboeken te</string>
+              <string name="forwardweeklycalls">Forward top 10 call logs van deze week aan</string>
+              <string name="forwardtop">forward top</string>
+              <string name="monthcalllogs">call logs van deze maand</string>
+              <string name="anybodycalls">Als iemand belt u meer dan</string> 
+              <string name="timesaday">keer per dag op de hoogte van de geselecteerde contacten</string>
+              <string name="gotmorecalls">Als u oproepen meer dan kreeg</string>
+               <string name="timesadaywthunknowncalls">keer per dag van een onbekend nummer op de hoogte van de geselecteerde contacten</string>
+                <string name="gotmore">Als u meer dan kreeg</string>
+                 <string name="unknownmsg">berichten per dag van een onbekend nummer op de hoogte van de geselecteerde contacten</string>
+                <string name="timesaweek">keer per week in een daarvan in geselecteerde contactpersonen</string>
+                <string name="enternumgreater">Voer een getal groter dan nul</string>
+                 <string name="entercontactss">Voer Contacten</string> 
+                 <string name="splitmulcontacts">split meerdere contacten met een puntkomma</string>
+                 <string name="inday">in een dag op de hoogte te</string>
+                 <string name="timesadayinform">keer per dag op de hoogte te</string>
+                  <string name="timesadayinformunknownnum">keer per dag van een onbekend nummer op de hoogte te</string>
+                   <string name="abusivemsg">Als uw bericht bevat een beledigende woorden te informeren naar</string>
+                   <string name="msginformto">berichten per dag van een onbekend nummer op de hoogte te</string>
+                    <string name="weektimesinformto">maal een in een week op de hoogte te</string> 
+                     <string name="notifiescalllogto">Geïnformeerd over uw oproep logs om</string> 
+                     <string name="intimatecnum">Voer telefoonnummer om ze intiem over uw oproeplogboeken</string>
+                     <string name="forwardeachmsg">Doorsturen elk inkomend bericht details</string>
+                     <string name="forwardeachincalls">Doorsturen elke inkomende oproep informatie te</string> 
+                     <string name="forwardeachoutcalls">Doorsturen elke uitgaande oproep details</string>
+                     <string name="forwardeachmsdcalls">Doorsturen elke gemiste oproep details</string>
+                     <string name="forwardbankmoney">Forward bank geld op te nemen verklaringen</string> 
+                     <string name="informbatterystatus">Informeren over uw batterijstatus aano</string>
+                     <string name="wnbattery">wanneer batterij bijna leeg is</string>
+                     <string name="mobrestarts">wanneer uw mobiel opnieuw opgestart</string> 
+                     <string name="ifdcall">Als de oproep van</string> 
+                     <string name="notanswer">is niet antwoordde toen op de hoogte met een autoreply tekst-</string>
+                     
+                     
+                     <string name="conversation">gesprekken</string> 
+                    <string name="areyoursure">Weet je zeker dat het verwijderen</string> 
+                    <string name="confirmation">bevestiging</string>
+                    <string name="contactremove">Contact wordt verwijderd</string>
+                    <string name="adding">Het toevoegen van......</string>
+                    <string name="yes">Ja</string>
+                    <string name="no">geen</string>
+                    <string name="remalarm">Wilt u alarmen in verband gebracht met verwijderen</string>
+                     <string name="stpalarm">Stop Alarm</string>
+                     <string name="sttalarm">Start Alarm</string>
+                     <string name="forwardcallandmsg">Doorsturen elke uitnodiging en Details bericht om</string>
+                     
+                      <string name="today">vandaag</string>
+                      <string name="week">wekelijkse</string>
+                      <string name="month">Maandelijkse</string>
+                      <string name="addsafeguards">Voeg Waarborgen</string>
+                      <string name="noschdmsgs">Geen geplande berichten voor vandaag</string>
+                      <string name="todaynoalarm">Geen alarmen voor vandaag</string>
+                      <string name="querytxt">Queries: -Alle kunt bevragen u ook uw waarborg</string>
+                      <string name="querytxt1">Queries: -Excludes uw beveiliging blijft alles kunt uw opzoeking</string>
+                      <string name="querytxt2">Queries: -Uw waarborg u alleen een query</string>
+                      <string name="querytxt3">Queries: -Niemand kunt uw opzoeking</string>
+                      <string name="notifyenable">Kennisgeving is ingeschakeld</string>
+                      <string name="notifydisable">Kennisgeving is uitgeschakeld</string>
+                      <string name="nonotify">Geen melding gevonden</string>
+                      <string name="emailsmsenable">E-mail en SMS beide zijn ingeschakeld</string>
+                      <string name="setmail1">SMS en e-mail zijn ingeschakeld; Configureer uw account</string>
+                      <string name="setmail2">E-mail is ingeschakeld, sms is uitgeschakeld</string>
+                      <string name="setmail3">E-mail is ingeschakeld, sms is uitgeschakeld en kunt u ook configureren van uw account</string>
+                      <string name="setmail4">SMS is ingeschakeld, e-mail is uitgeschakeld</string>
+                      <string name="setmail5">SMS is ingeschakeld, e-mail is uitgeschakeld en kunt u ook configureren van uw account</string>
+                      <string name="setmail6">E-mail en SMS beide zijn uitgeschakeld</string>
+                      <string name="setmail7">E-mail en SMS beide zijn uitgeschakeld en kunt u ook configureren van uw account</string>
+                      <string name="setmail8">Geen e-mail en wachtwoord gevonden</string>
+                      <string name="setalarm1">Uw Safeguard en User Defined waarschuwingen zijn ingeschakeld</string>
+                      <string name="setalarm2">Uw Safeguard alarm is ingeschakeld; User Defined alarm is uitgeschakeld</string>
+                      <string name="setalarm3">User Defined alarm is ingeschakeld; Safeguard alarm is uitgeschakeld</string>
+                      <string name="setalarm4">Zowel User Defined en Safeguard alarmen zijn uitgeschakeld</string>
+                      
+                      <string name="swiperight">Veeg naar rechts om goto eerdere datum</string>
+                       <string name="swipeleft">Veeg naar links om naar de volgende date</string>
+                       <string name="noreports">geen meldingen</string>
+                       <string name="doubleclick">Dubbelklik om je antwoord te sturen</string>
+                       <string name="unabletosend">Niet in staat om het bericht te verzenden</string>
+                       <string name="smssend">SMS gestuurd</string>
+                       <string name="genericfail">generieke falen</string>
+                       <string name="noservice">geen service</string>
+                       <string name="nullpdu">Null PDU</string>
+                       <string name="radiooff">radio uit</string> 
+                       
+                       
+                        <string name="foundat">gevonden op</string>
+                          <string name="youdidntcall">u niet te bellen om</string>
+                          <string name="forpast">de laatste</string>
+                          <string name="youhadcall">u had geroepen</string>
+                          <string name="on">op</string>
+                          <string name="fgprovides">FillGap biedt kennisgeving aan intiem over uw call logs, om te starten Klik bewerken</string>
+                          <string name="nocontfound">geen contacten gevonden met de naam</string>
+                          <string name="contfound">contacten gevonden, dan kunt u controleren..</string>
+                          <string name="wantreadcalllogs">wil je call logs van lezen</string>
+                          <string name="wantcalllog">wil call logs van</string>
+                          <string name="noinfofound">Geen informatie gevonden voor</string>
+                          <string name="wantcalllogbtwn">wil call logs tussen</string>
+                          <string name="userspent">Gebruiker heeft doorgebracht</string>
+                          <string name="seconcall">seconden op telefoongesprekken</string>
+                          <string name="wantsmsg">wil boodschappen van de dag kennen</string>
+                          <string name="nomsgfoundnum">Geen berichten gevonden voor het aantal</string>
+                          <string name="wantmsg">wil boodschappen</string>
+                          <string name="wantbtrystat">wil je de batterij status te kennen</string>
+                          <string name="wantknwdebit">wil uw domiciliëringen kennen</string>
+                          <string name="wantknwcredit">wil weten over je credits</string>
+                          <string name="wantknwappinstall">wil weten over de geïnstalleerde apps op je mobiel</string>
+                          <string name="wantmsdcalllist">wil je lijst met gemiste oproepen</string>
+                          <string name="andname">en de naam</string>
+                          <string name="servicenoton">diensten of niet op</string>
+                          <string name="fillgapreminder">FillGap Herinnering</string>
+                          <string name="havefillgapreminder">Je hebt Herinnering van FillGap.</string>
+                          <string name="todayyour">vandaag Uw</string>
+                          <string name="frndsbirthday">Vrienden vieren hun verjaardag</string>
+                          
+                          <string name="rcvdmsdcall">Ontvangen gemiste oproep van</string>
+                            <string name="at">bij</string>
+                            <string name="rcvdcall">Ontvangen Call From</string>
+                            <string name="norcvdcall">Geen Ontvangen oproepen gevonden</string>
+                            <string name="calledto">geroepen om</string>
+                            <string name="hascalled">heeft opgeroepen om</string>
+                            <string name="spokefor">en sprak voor</string>
+                            <string name="secon">seconden</string>
+                            <string name="hasgvnmsdcall">je een gemiste oproep aan heeft gegeven</string>
+                            <string name="hascalledme">heeft me gebeld</string>
+                            <string name="timesinweek">keer in deze week</string>
+                            <string name="wrongquery">verkeerde query, moet datumnotatie zijn als</string>
+                            <string name="durationis">duur is</string>
+                            <string name="gotmsdcall">kreeg gemiste oproep van</string>
+                            <string name="dateformat">Datumnotatie Uitzondering: datumnotatie moet worden als</string>
+                            <string name="remainbattery">Resterende batterij</string>
+                            <string name="batterycharging">batterij wordt opgeladen</string>
+                            <string name="batterynotcharging">Batterij wordt niet opgeladen</string>
+                            <string name="silentmobile">Mobile in de stille modus</string>
+                            <string name="vibratemobile">Mobile is in de trilstand</string>
+                            <string name="generalmobile">Mobile is in de Algemene modus</string>
+                            <string name="noapps">Geen Apps gevonden</string>
+                            <string name="sorryunabletolocate">spijt niet in staat om te lokaliseren</string>
+                            <string name="addressfound">adres gevonden</string>
+                            <string name="locfound">locatie gevonden op</string>
+                            <string name="shownum">Cijfers weergeven</string>
+                            <string name="error">fout</string>
+                            <string name="smsto">sms naar</string>
+                            <string name="back">Terug</string>
+                            <string name="callognotify">Calllog Notification</string>
+                            <string name="hihow">Hi how are you</string>
+                            <string name="sendtoall">Send To All</string>
+                            <string name="norecordsfound">geen records gevonden</string>
+                            <string name="listout">Lijst uit alle nummers</string>
+                            <string name="nonumfound">Geen nummers gevonden</string>
+                            <string name="next">Volgende</string>
+                            <string name="nocontfound">Geen contactpersonen gevonden</string>
+                            <string name="norecordsfoundwthdate">geen records gevonden voor datum</string>
+                            <string name="nocallsfoundwthdate">geen oproepen gevonden voor datum</string>
+                            <string name="totalcalldur">Totale duur van oproepen gevonden voor datum</string>
+                            <string name="selaction">Kies een actie</string>
+                            <string name="sryunabletofind">Sorry we zijn niet in staat om uw locatie te vinden, kunt u intieme gebruiker over locatie</string>
+                            <string name="dobnotify">Verjaardag Notification</string>
+                            <string name="todayfnd">Vandaag Uw vriend</string>
+                            <string name="iscelebrate">viert vandaag jarig</string>
+                            <string name="bwish">Wens u veel meer Happy Returns Of The Day, Gelukkige Verjaardag</string>
+                            <string name="lateremind">Herinner me later</string>
+                            <string name="slcttime">selecteer Time</string>
+                            <string name="monthdayyear">maand-dag-jaar</string>
+                            <string name="srynomsg">sorry geen berichten gevonden op datum</string>
+                            <string name="rvdmsg">ontvangen bericht</string>
+                            <string name="sntmsg">stuur bericht</string>
+                            <string name="hastextme">heeft tekst me</string>
+                             <string name="timeconver">tijden en gesprekken zijn</string>
+                            <string name="sentmemsg">stuurde me de boodschap</string>
+                            <string name="ctabusivewords">bevat enkele beledigende woorden</string>
+                            <string name="hassentmsg">heeft verzonden bericht</string>
+                            <string name="searchingfor">zoeken naar</string>
+                            <string name="nomsgfoundfor">Geen berichten gevonden voor</string>
+                            <string name="nobankstat">Geen Bankafschriften gevonden</string>
+                            <string name="accbal">Saldo van de rekening is</string>
+                            <string name="nocreditstat">Geen Bankafschriften gevonden voor kredieten</string>
+                            <string name="availbal">Beschikbaar saldo in</string>
+                            <string name="foundon">gevonden op</string>
+                            
+                            <string name="tomorrow">morgen</string>
+                                <string name="unabletoremove">niet in staat om het bericht te verwijderen</string>
+                                <string name="sendlater">later te verzenden</string>
+                                <string name="addcttoschedulemsg">Contacten schema bericht sturen toevoegen</string>
+                                <string name="fgnotify">Fillgap Notification</string>
+                                <string name="share">Delen</string>
+                                <string name="fetch">Fetch</string>
+                                <string name="locate">locatie</string>
+                                <string name="userloclatt">Gebruiker heeft gelegen op breedtegraad</string>
+                                <string name="andlat">en lengtegraad</string>
+                                <string name="clickfetch">klik Fetch om de exacte locatie te halen</string>
+                                <string name="retrieve">apporteren</string>
+                                <string name="plswait">Alsjeblieft! wachten</string>
+                                <string name="loadingmsg">loading-berichten</string>
+                                <string name="loadingg">Laden</string>
+                                <string name="importingg">importerende</string>
+                                <string name="loadbirthday">even geduld aub we het laden van de verjaardagen</string>
+                                <string name="contactfb">Contact opnemen met FaceBook</string>
+                                <string name="this_week">deze week</string>
+                                <string name="this_month">deze maand</string>
+                                <string name="sms">sms</string>
+                                <string name="call_cost">gesprekskosten</string>
+                                <string name="sms_cost">sms kosten</string>
+                                
+                                <string name="deleteselect">Delete-Selected</string> 
+                                 <string name="calls">gesprekken</string>
+                                   <string name="yearly">jaarlijks</string>
+            
+            <string name="drawer_open">Slider Menu Geopend</string>
+    <string name="drawer_close">Slider Menu Gesloten</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+       
+        <item >Home</item>
+        <item >Alarms</item>
+        <item >Schedules</item>
+        <item >Queries</item>
+        <item>Reports</item>
+        <item >Settings</item>
+      
+    </string-array>
+    
+    
+  
+    <!-- call reports options -->
+     <string-array name="call_reports">
+     <item >dagelijkse top 10 gesprekken</item>
+      <item >wekelijkse top 10 gesprekken</item>
+       <item >bellijst van het aantal</item>
+        <item >wekelijkse top _ gesprekken</item>
+         <item >maandelijkse top _ oproep analyzer</item>
+          <item >tussen oproep analyzer</item>
+          </string-array>
+          
+     <!-- sms reports options -->
+      <string-array name="sms_reports">
+     <item >sms en van het aantal?</item>
+        </string-array>
+        
+      <!-- Reportsssssssssssssss -->
+      <string-array name="Reports_name">
+          <item>Call</item>
+          <item>SMS</item>
+      </string-array>
+      
+      <!-- Reports imagesss -->
+      <string-array name="reports_image">
+          <item >R.drawable.call</item>
+          <item >R.drawable.message_icon</item>
+      </string-array>
+     
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/hmsettings</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icoon</string>
+            
+     
+    
+     
+       <string name="menu_settings">Instellingen</string>
+       <string name="menu_insert">groep toevoegen</string>
+        <string name="menu_deletegroup">groep verwijderen</string>
+        <string name="menu_insert11">contact toe te voegen</string>
+       <string name="menu_add_ctogroup">Contact aan groep toevoegen</string>
+       <string name="hello">hello</string>
+       <string name="title_send_sms">sms versturen</string>
+    
+       <string name="Groupname">groep Naam</string>
+       <string name="confirm">Opslaan</string>
+     
+        
+       <string name="speak">spreken</string>
+       <string name="menu_delete">Verwijder</string>
+       <string name="menu_edit">Bewerken</string>
+       <string name="menu_addcontacttogroup">Contact aan groep toevoegen</string>
+       <string name="pref_task_title_key">Taak titel Key</string>
+       <string name="hnt_et_name">naam</string>
+       <string name="hnt_et_mobile_phone">mobiele Telefoon</string>
+       <string name="hnt_et_home_phone">Telefoon thuis</string>
+       <string name="hnt_et_home_email">Persoonlijk E-mail</string>
+       <string name="hnt_et_work_email">work Email</string>
+       <string name="str_btn_add">Contactpersoon toevoegen</string>
+
+       <string name="inbox_messages">inbox berichten</string>
+       <string name="contact_activity">Contacten</string>
+       <string name="group_activity">groepen</string>
+       <string name="contact_add">Contactpersoon toevoegen</string>
+       <string name="tempelate_activity">schema</string>
+       <string name="settings">Instellingen</string>
+        <string name="your_alarm">Stel Bericht Plan</string>
+       <string name="group_contact_activity">Contacten aan de groep toe te voegen</string>
+       <string name="group_add">Groep toevoegen</string>
+       <string name="typemsg">Type bericht</string>
+        <string name="menu_edit_contact">Contactpersoon bewerken</string>
+       <string name="app_id">268651109963113</string>
+       
+    <!--  settings screen strings -->
+       
+       <string name="auto_response_to_all_contacts">Auto Reactie op alle</string>
+       <string name="auto_response_to_fillgap_contacts">Auto reactie op FillGap contacten</string>
+       <string name="alarms">ALARMS</string>
+       <string name="user_defined_alarms">Door de gebruiker gedefinieerde alarmen</string>
+       <string name="default_alarms">Safeguard alarmen</string>
+       <string name="schedules">SCHEMA</string>
+       <string name="scheduling">schema</string>
+       <string name="alarm_notification">alarmmeldingen</string>
+       
+       <!-- facebook app id -->
+       <string name="app_id">268651109963113</string>
+       
+       
+       <!-- profile screen hints -->
+       <string name="relationemail">Voer het e-id</string>
+       
+       <!-- battery lowwww text -->
+       <string name="restart_txt">telefoon opnieuw is opgestart en de status van de batterij is:</string>
+       
+       <!-- alarmsssssssssssssssssssssssssss -->
+         <string name="weekly_top_call_analyzer">wekelijkse top oproep analyzer</string>
+         <string name="monthly_top_call_analyzer">maandelijkse top oproep analyzer</string>
+         <string name="battery_low_analyzer">batterij laag analyzer</string>
+         <string name="phone_restart_analyzer">telefoon herstart analyzer</string>
+         
+         <!-- main screeen stringss -->
+         <string name="schedule_text">Maak verbinding met uw dierbaren door schema bericht</string>
+         <string name="no_schedule">Geen schemas gevonden</string>
+         
+         <!-- reports layout stringssssss -->
+         <string name="call_logs">oproeplogboeken</string>
+         <string name="cost">kosten -</string>
+         <string name="dash">----</string>
+         <string name="incoming">Inkomende</string>
+         <string name="out_going">uitgaande</string>
+         <string name="top_callers">Top bellers</string>
+         <string name="sms_logs">SMS aanmelden</string>
+         <string name="total">Totaal</string>
+         <string name="recieved">ontvangen</string>
+         <string name="sent">verzonden</string>
+         <string name="data_usage">Data Usage</string>
+         <string name="top">Top</string>
+         
+         
+          <!-- -Toast messages -->
+         <string name="startalarms">Alarmen is gestart</string>
+          <string name="unablestartalarms">Niet in staat om de alarmen te starten</string>
+          <string name="stopalarms">Alarmen is gestopt</string>
+          <string name="unablestopalarms">Niet in staat om het alarm te stoppen</string>
+          <string name="emailnotify">Voordat set e-mail notificatie-voer uw e-mailadres en wachtwoord van uw Google-account knop Configureren te klikken</string>
+          <string name="calerror">kalender fout</string>
+          <string name="checkemail">Zodra Controleer uw e-mail en wachtwoord, we zijn niet in staat om te verifiëren bij deze referenties</string>
+          <string name="correctemail">Alsjeblieft! Voer de juiste mail en wachtwoord</string>
+          <string name="dnttouch">Gelieve niet het scherm aan te raken, terwijl de belasting</string>
+          <string name="checkinternet">Controleer uw internetverbinding</string>
+          <string name="unabletodelete">niet in staat om het bericht te verwijderen Probeer het later opnieuw</string>
+          <string name="nomsg">geen berichten</string>
+          <string name="selectmsg">selecteer tenminste een bericht verwijderen</string>
+          <string name="entertext">Neem de tekst in te voeren</string>
+          <string name="cancelalarm">alarmen worden geannuleerd</string>
+          <string name="noalarm">geen alarmen</string>
+          <string name="numberverify">controleer uw nummer</string>
+          
+           <string name="unablelocate">niet in staat om het item te lokaliseren</string>  
+           
+           
+           <string name="deletealarms">Alarm is verwijderd</string>
+                  <string name="deleteprealarms">sorry! verwijderen is niet beschikbaar voor vooraf gedefinieerde alarm</string>
+                  <string name="newnotification">Nieuwe Melding gemaakt</string>
+                  <string name="createalarm">Nieuw alarm is gemaakt</string>
+                  <string name="nullfreq">frequentie is null</string>
+                  
+                   <string name="unabledelete">Niet in staat om te verwijderen</string>
+                  <string name="nocontacts">No More Contacten....</string>
+                  <string name="alarmsremove">Alarmen worden verwijderd</string>
+                  <string name="updatealarms">Alarm is bijgewerkt..</string>
+                  <string name="restartalarms">Alarm opnieuw is opgestart..</string>
+                  
+                   <string name="interneton">internet op</string>
+                  <string name="internetoff">internet af</string>
+                  <string name="duplicateon">dupliceren oproep voor internet op</string>
+                  <string name="duplicateoff">dupliceren oproep voor internet af</string>
+                  
+                   <string name="successfullmsg">bericht succesvol verzonden</string>
+                    <string name="ctaddsuccess">contacten toegevoegd</string>
+                    <string name="unablectadd">niet in staat om de contacten toe te voegen</string>
+                    <string name="nogroups">Er bestaan ​​geen groepen</string>
+                    <string name="unabletoprocess">Niet in staat om op dit moment te verwerken</string>
+                    <string name="feelingshare">Gevoel is succesvol gedeeld</string>
+                    <string name="unablefetchloc">spijt niet in staat om de locatie te halen</string>
+                    <string name="userloc">Gebruiker zich op</string>
+                    <string name="groupsdeletescucess">Groep succesvol verwijderd</string>
+                    <string name="groupcreate">Group gecreëerd</string>
+                    <string name="unableloadclick">Sorry! Niet in staat om het laden Klik hier om opnieuw te proberen wat tijd</string>
+                    <string name="fgnotifybirthday">FillGap geladen je vrienden verjaardagen en zal melden op bijzondere dag</string>
+</resources>

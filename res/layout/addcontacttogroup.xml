@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:textColor="#ff0000" />
+<EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/et2"  
+       android:hint="@string/entername"  />
+<EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/et3"  
+       android:hint="@string/enternum"   />
+<EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/et4"  
+       android:hint="@string/entergname"  />
+<Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/confirm"
+       android:textColor="#fff000"
+       android:onClick="clicked" />
+    
+</LinearLayout>

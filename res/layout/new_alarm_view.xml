@@ -1,0 +1,62 @@
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#CFCFC4"
+                >
+
+   
+            
+                        <TableRow   android:paddingTop="10px" android:gravity="center" android:background="#CFCFC4">
+
+                            <ImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="30px"
+                                android:layout_height="30px"
+                                android:layout_marginLeft="250dip"
+                                android:src="@drawable/st11" />
+                        
+                         </TableRow>
+                         
+                        <TableRow android:layout_marginTop="20dip" >
+
+                            <ListView
+                                android:id="@+id/androidlist"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#CFCFC4" >
+                            </ListView>
+                            
+                          <RelativeLayout
+         
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            
+             >
+  
+             <ImageView
+                    android:id="@+id/dividerbar"
+                     android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/titlebar"
+                   android:background="@drawable/template2" />
+  
+        
+           
+        </RelativeLayout>
+    
+     <LinearLayout  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+       android:orientation="vertical">
+   
+    
+  	</LinearLayout>
+                           
+                         </TableRow>
+
+
+                        
+     </TableLayout>

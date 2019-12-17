@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/titlebar"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:orientation="horizontal"
+             android:background="@drawable/msgtitle">
+             
+           <ImageView
+               android:id="@+id/profile"
+               android:layout_width="70px"
+               android:layout_height="70px"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="2dp"
+               android:src="@drawable/profile" />
+             
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="110dp"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="14dp"
+              android:layout_marginTop="5dp"
+              android:layout_toRightOf="@+id/profile"
+              android:text="Medium Text"
+              android:textColor="#ffffff"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+         <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="14dp"
+            
+              android:layout_below="@+id/textView1"
+              android:text="Medium Text"
+               android:layout_toRightOf="@+id/profile"
+              android:textColor="#ffffff"
+              android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+         <ImageView
+              android:id="@+id/call"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+             android:layout_marginLeft="28dp"
+              android:layout_toRightOf="@+id/textView2"
+              android:src="@drawable/msgcall" />
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignTop="@+id/textView1"
+             android:text="10"
+             android:textColor="#FF1C00"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+              android:visibility="invisible" />
+
+         
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="40dp"
+             android:layout_toRightOf="@+id/call"
+             android:src="@drawable/hm1"
+             android:visibility="invisible" />
+
+         
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+         >
+
+        <ListView
+            android:id="@+id/listViewSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="274dp"
+            android:background="#FFFFFF"
+                        android:stackFromBottom="true" 
+            android:dividerHeight="5dip" >
+        </ListView>
+
+    </LinearLayout>
+
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:gravity="bottom"
+          android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/create_msg"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btmtextlines"
+        android:gravity="bottom|fill_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/typemsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/typemsg" />
+
+        <ImageView
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tempelates"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tempelates"
+            android:layout_weight="1"
+            android:src="@drawable/sendmg" />
+        
+        
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

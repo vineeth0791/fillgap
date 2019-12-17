@@ -1,0 +1,84 @@
+<com.ibetter.fg.utils.VerticalScrollview  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:fillViewport="true"
+	
+    android:fastScrollEnabled="true"
+    android:fastScrollAlwaysVisible="true" 
+	>
+	<TableLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" 
+             >
+             
+	           <TableRow
+                            android:id="@+id/tableRow2"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+                            <RelativeLayout android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+
+	               <ImageView
+	                   android:id="@+id/share"
+	                  android:layout_width="40dp"
+	                   android:layout_height="50dp"
+	                   android:layout_alignParentRight="true"
+	                   android:layout_alignParentTop="true"
+	                   android:src="@drawable/share1" />
+
+	               <ImageView
+	                   android:id="@+id/save_reports"
+	                   android:layout_width="40dp"
+	                   android:layout_height="50dp"
+	                   android:layout_alignParentTop="true"
+	                   android:layout_marginRight="14dp"
+	                   android:layout_toLeftOf="@+id/share"
+	                   android:src="@drawable/save" />
+
+	               </RelativeLayout>
+                            
+                            </TableRow>
+
+                        <!-- Row 1 with single column -->
+
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                           >
+
+    <GridView 
+         android:numColumns="1"
+         android:gravity="center"
+         android:columnWidth="100dp"
+         android:stretchMode="columnWidth"
+         android:layout_width="fill_parent"
+         android:layout_height="390dp"
+         android:id="@+id/grid"
+         />
+    </TableRow>
+       <TableRow
+                            android:id="@+id/tableRow2"
+                            android:layout_marginBottom="1dp"
+                            android:layout_gravity="bottom"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent">
+   
+    <Button  
+             android:id="@+id/wrong_cost"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/display_wrong_cost"
+             android:textColor="#FF1C00"
+             />
+    </TableRow>
+     
+
+
+</TableLayout>
+</com.ibetter.fg.utils.VerticalScrollview>
